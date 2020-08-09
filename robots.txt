@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /static/
+Disallow: /admin/
+Disallow: /analytics/
+Disallow: /api/

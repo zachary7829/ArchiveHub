@@ -1,0 +1,753 @@
+
+<!DOCTYPE html>
+<html lang="en" class="shortcut">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="Radarr Management">
+<meta property="og:url" content="/shortcut/3650" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="RoutineHub - Radarr" />
+<meta property="og:description" content="Radarr Management" />
+<meta property="og:image" content="https://routinehub-assets.s3.amazonaws.com/media/shortcuts/icons/1c904972b37b4970893b4f6eefc190e3.png" />
+<meta name="twitter:card" content="summary" />
+<title>RoutineHub • Radarr</title>
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;" />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-310x310.png" />
+<link rel="stylesheet" type="text/css" href="https://routinehub-assets.s3.amazonaws.com/static/main/main.22.css" />
+<link rel="stylesheet" type="text/css" href="https://routinehub-assets.s3.amazonaws.com/static/main/vendors/fancybox/jquery.fancybox.min.css" />
+<script type="e5bbb87792991f7834ad636f-text/javascript">
+            (function(f, a, t, h, o, m){
+            a[h]=a[h]||function(){
+            (a[h].q=a[h].q||[]).push(arguments)
+            };
+            o=f.createElement('script'),
+            m=f.getElementsByTagName('script')[0];
+            o.async=1; o.src=t; o.id='fathom-script';
+            m.parentNode.insertBefore(o,m)
+            })(document, window, '//cdn.usefathom.com/tracker.js', 'fathom');
+            fathom('set', 'siteId', 'PISDLNJI');
+            fathom('trackPageview');
+        </script>
+</head>
+<body>
+<article class="message pop-up">
+<div class="message-header">
+<p class="message-title"></p>
+<button class="delete" aria-label="delete"></button>
+</div>
+<div class="message-body"></div>
+</article>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+<div class="container">
+<div class="navbar-brand">
+<a class="navbar-item" href="../index.html">
+<img src="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-32x32.png">
+<p>RoutineHub</p>
+</a>
+<p class="search-button navbar-item is-hidden-desktop"><i class="fas fa-search"></i></p>
+<div class="navbar-burger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+<div class="navbar-menu">
+<div class="navbar-end has-text-right">
+<p class="search-button navbar-item is-hidden-touch"><i class="fas fa-search"></i></p>
+<a href="../faq/index.html" class="navbar-item">About</a>
+<a href="../register/index.html" class="navbar-item">Sign up</a>
+<a href="../login/index.html" class="navbar-item">Log in</a>
+</div>
+</div>
+</div>
+</nav>
+<div class="search hide has-background-white-ter">
+<div class="search-bar">
+<div class="container">
+<form method="get" action="https://routinehub.co/search/">
+<div class="field has-addons has-addons-centered">
+<div class="control is-expanded">
+<input name="q" class="input" id="id_q" type="search">
+</div>
+<div class="control">
+<button type="submit" class="button is-dark">
+<i class="fas fa-search"></i>
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="banner has-background-success has-text-centered">
+<a href="../register/index.html">
+<div class="text">
+<strong>RoutineHub is a growing community around Siri Shortcuts. Click here to create your account and get started!</strong>
+</div>
+</a>
+</div>
+<section id="content" class="section">
+<div class="container">
+<article class="media shortcut-header">
+<figure class="media-left">
+<p class="image app is-64x64">
+<img src="https://routinehub-assets.s3.amazonaws.com/media/shortcuts/icons/1c904972b37b4970893b4f6eefc190e3.png">
+</p>
+</figure>
+<div class="media-content">
+<div class="content">
+<div class="titles">
+<h3 class="title is-3">Radarr</h3>
+<h4 class="subtitle is-4">Radarr Management</h4>
+</div>
+</div>
+</article>
+<hr>
+<div class="columns">
+<div class="column sidebar is-2">
+<div class="actions">
+<a href="../download/16058.html" target="_blank" class="button is-dark is-fullwidth">Get Shortcut</a>
+<a href="3650/report.html" class="button is-danger is-fullwidth">Report</a>
+</div>
+<br>
+<div class="heart has-text-centered" data-id="3650">
+<span class="heart-icon ">
+<i class="fas fa-heart fa-lg"></i>
+</span>
+<span class="heart-count">6</span>
+</div>
+<br>
+<p class="has-text-centered"><a href="../login/index.html" style="text-decoration: underline;">Log in</a> or <a href="../register/index.html" style="text-decoration: underline;">sign up</a> to heart</p>
+<br>
+<p class="is-size-5"><strong>Information</strong></p>
+<div class="information">
+<p>Author:
+<a href="../user/Thetanis.html"><strong>@Thetanis</strong></a>
+<p>Version: 2.00</p>
+<p>iOS: 13</p>
+<p>Updated: 04/08/20</p>
+<p>Downloads: 622</p>
+<p>Categories:</p>
+<ul class="fa-ul">
+<li>
+<a href="../category/entertainment.html">
+<span class="fa-li">
+<i class="fas fa-film"></i>
+</span>
+Entertainment
+</a>
+</li>
+<li>
+<a href="../category/utilities.html">
+<span class="fa-li">
+<i class="fas fa-calculator"></i>
+</span>
+Utilities
+</a>
+</li>
+</ul>
+</div>
+<hr>
+<p class="is-size-5"><strong>Required Apps</strong></p>
+<div class="apps columns is-mobile is-multiline">
+<div class="column none"><em>None</em></div>
+</div>
+<hr>
+<div class="qr-code has-text-centered is-hidden-mobile">
+<img src="https://api.qrserver.com/v1/create-qr-code/?data=https://routinehub.co/download/16058" />
+<p class="is-size-7"><em>Scan using your iPhone's camera to download</em></p>
+</div>
+</div>
+<div class="column is-10 details">
+<div class="description">
+<h4 class="title is-4">Description</h4>
+<div class="content">
+<p>2.00 - April 8, 2020, 3:10 a.m.</p>
+<p>Version 2.00</p>
+<p>Version 2.00 is here. Finally bringing this shortcut in line with the Sonarr shortcut in terms of features and menu options. I've lost track on exactly everything that changed. But here are the high lights.</p>
+<ul>
+<li>Added queue menu. View download queue or view download history for the past 10 items.</li>
+<li>Renamed edit menu to 'advanced'.</li>
+<li>Added caching of movie menu items. This greatly improved the speed for searching for movies. And accessing any menu that required a compiled list of shows. Which means fewer repeated steps in each menu. Movie cache will update periodically and when adding a new movie.</li>
+<li>Added sorting of selecting releases based on quality weight, this should place the more relevant releases on top of the search results.</li>
+<li>Fixed incorrect sourcing of key when searching for movies. Therefore fixing returning a ton of unwanted profiles.</li>
+<li>Added rich notifications in all notifications that support it.</li>
+</ul>
+<p>An easy to follow setup will run on first run of shortcut. </p>
+<pre><code>1)  If you want to add 4K movies
+2) API Key. Found in settings-general-API 
+3) Radarr url This should be set to ‘http(s)://IPorHOSTNAME:PORT/api’ if no base URL. http(s)://IPorHOSTNAME:PORT/baseURL/api’. If you use a reverse proxy ‘http(s)://IPorHOSTNAME/baseURL/api’ 
+4) root path where you store you HD quality media content. i.e /media/Synology/Content/Movies
+5) root path for where you want to store 4K quality media, can be different or same as above.
+</code></pre>
+</div>
+</div>
+<hr>
+<div class="latest-release">
+<h4 class="title is-4">Latest Release Notes</h4>
+<p><strong>2.00 - April 8, 2020, 3:10 a.m.</strong></p>
+<p>Version 2.00<br>Version 2.00 is here. Finally bringing this shortcut in line with the Sonarr shortcut in terms of features and menu options. I&#39;ve lost track on exactly everything that changed. But here are the high lights.<br>-Added queue menu. View download queue or view download history for the past 10 items.<br>-Renamed edit menu to &#39;advanced&#39;.<br>-Added caching of movie menu items. This greatly improved the speed for searching for movies. And accessing any menu that required a compiled list of shows. Which means fewer repeated steps in each menu. Movie cache will update periodically and when adding a new movie.<br>-Added sorting of selecting releases based on quality weight, this should place the more relevant releases on top of the search results.<br>-Fixed incorrect sourcing of key when searching for movies. Therefore fixing returning a ton of unwanted profiles.<br>-Added rich notifications in all notifications that support it.</p>
+<br>
+<a href="3650/changelog.html" class="button is-dark">Past versions</a>
+</div>
+<hr>
+<div class="feedback">
+<h4 class="title is-4">Feedback</h4>
+<p><a href="../login/index.html" style="text-decoration: underline;">Log in</a> or <a href="../register/index.html" style="text-decoration: underline;">sign up</a> to leave feedback.</p>
+<br>
+<article class="media" data-feedback-id="3905">
+<div class="media-content">
+<a href="../user/erickgrau.html"><strong>@erickgrau</strong></a>
+<div class="content">
+<span class="body">Where does the shortcut grab the profiles to add for a new movie? I added a movie, selected 4K option but went to check and it added the movie with an &quot;Any&quot; quality profile. Any way it can pull the existing quality profiles and ask when adding? Thanks</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 9 months, 2 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="3905">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="3906">
+<div class="media-content">
+<a href="../user/Thetanis.html"><strong>@Thetanis</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">The setup steps for choosing 4k are run on the first run of the shortcut. If answered &#39;yes&#39; to the prompt.. You can always adjust your JSON in iCloud Drive to contain the setting.
+{&quot;apiKey&quot;:&quot;YOURAPIKEYHERE&quot;,&quot;radarrUrl&quot;:&quot;https:\/\/YOURRADARRURLHERE\/BASEURL\/api&quot;,&quot;hdRootPath&quot;:&quot;\/media\/Synology\/Content\/Movies&quot;,&quot;4kRootPath&quot;:&quot;\/media\/Synology\/Content\/4k Movies&quot;,&quot;hdProfileQualityID&quot;:&quot;4&quot;,&quot;4kProfileQualityID&quot;:&quot;5&quot;}
+This is how mine looks. Easiest to just copy the ,&quot;4kProfileQualityID&quot;:&quot;5&quot;}</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 9 months, 2 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="3906">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="media" data-feedback-id="3907">
+<div class="media-content">
+<a href="../user/Thetanis.html"><strong>@Thetanis</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">The file path in iCloud should be &quot;/MediaServer/Radarr/RadarrAPI.json&quot;. Can be edited with text edit.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 9 months, 2 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="3907">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="3957">
+<div class="media-content">
+<a href="../user/erickgrau.html"><strong>@erickgrau</strong></a>
+<div class="content">
+<span class="body">Thank you. Working perfectly now!</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 9 months, 2 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="3957">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="3958">
+<div class="media-content">
+<a href="../user/Thetanis.html"><strong>@Thetanis</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">Glad to hear it!</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 9 months, 2 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="3958">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+<article class="media" data-feedback-id="6072">
+<div class="media-content">
+<a href="../user/pattont.html"><strong>@pattont</strong></a>
+<div class="content">
+<span class="body">I run Radarr on Windows so my file path includes a drive letter (not the same disk that Radarr is running on), ex. G:\Usenet\Complete\Movies. The shortcut seems to work perfectly and even says the film is added, but isn&#39;t adding it. I assume the issue is with the file path. Any ideas?</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 3 months, 3 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="6072">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="6073">
+<div class="media-content">
+<a href="../user/Thetanis.html"><strong>@Thetanis</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">In a web browser on your computer go to your radarr url with the following.
+https://YOURRADARRURL/api/rootfolder?apikey=YOURAPIKEYHERE
+if you use a web root:
+https://YOURRADARRURLHERE/WEBROOT/api/rootfolder?apikey=YOURAPIKEYHERE
+This should show you the path that Radarr expects exactly. You can copy and paste it into your JSON stored in iCloud Drive. Being sure you replace the right path. Or just delete that JSON config and reset up pasting in the path as Radarr see it.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 3 months, 3 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="6073">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="media" data-feedback-id="6074">
+<div class="media-content">
+<a href="../user/Thetanis.html"><strong>@Thetanis</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">If that doesnt fix it, let me know. You reminded me with this that I have a way to just auto source the paths that I put in the Sonarr shortcut.. So I need to add that in for this one.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 3 months, 3 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="6074">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="6095">
+<div class="media-content">
+<a href="../user/pattont.html"><strong>@pattont</strong></a>
+<div class="content">
+<span class="body">I did the above and got the root folder. It was what I posted above, minus it having two forward slashes per level obviously. I put that in the JSON file and when going through to add a movie it says it’s adding and then says it’s added, but it’s not in the collection. I’m about to setup the sonarr shortcut so will have to let you know.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 3 months, 3 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="6095">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="media" data-feedback-id="6096">
+<div class="media-content">
+<a href="../user/pattont.html"><strong>@pattont</strong></a>
+<div class="content">
+<span class="body">I setup Sonarr tonight and looked at the Json file and it had put in the same path as I had entered in Radarr, but had an extra // after Movies. I did that and it still doesn’t actually add the file. Ok, with that said I tried to add a show with Sonarr and it does the same thing. Says it’s adding, then says added and nothing is actually added to my show list.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 3 months, 3 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="6096">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="6097">
+<div class="media-content">
+<a href="../user/Thetanis.html"><strong>@Thetanis</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">Sorry, I don’t have it running on windows. I would have to deploy it on a VM and see what’s happening. I will also check the API docs and see if they reference windows pathing. I’ll let you know when/if I find something.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 3 months, 3 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="6097">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="6099">
+<div class="media-content">
+<a href="../user/pattont.html"><strong>@pattont</strong></a>
+<div class="content">
+<span class="body">I&#39;m still getting invalid path &#39;warn&#39; in the radarr log. I thought I might have found it because my path is this:
+&quot;path&quot;: &quot;G:\\Usenet\\complete\\Movies&quot;
+I noticed when it&#39;s generating the VCards to select the film in the Notes field it&#39;s
+NOTE:pathSelectedAdd/title
+so I changed it to
+NOTE:pathSelectedAdd\\title
+to match my path above. I was super hopeful when it ran, but its still not adding.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 3 months, 3 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+ <input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="6099">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="6100">
+<div class="media-content">
+<a href="../user/pattont.html"><strong>@pattont</strong></a>
+<div class="content">
+<span class="body">OK I FIGURED IT OUT!
+I put in an output to see what JSON was actually getting sent and the last post is correct, the notes field must be changed, but ALSO the path needs to be G:\\\\Usenet\\\\complete\\\\Movies stored in the .json file. I noticed that with just \\ it was sending G:UsenetcompleteMovies instead of having the slashes at all. So there is a couple of things to fix. 1. Change the way the path is stored in the .json file when you get it back from Sonarr/Radarr.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 3 months, 3 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="6100">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="media" data-feedback-id="6101">
+<div class="media-content">
+<a href="../user/pattont.html"><strong>@pattont</strong></a>
+<div class="content">
+<span class="body">2. Update the VCard when adding a film to be pathSelected\\\\title 3. Add &#39;profileID&#39; to the POST. Without it I was just getting an error that it had to be there back from Radarr. 4. Add year to the movie title save path ex. Movie (1999). Everything is there in the vCard for do it. After I made the changes I mentioned in the previous post it worked perfectly adding the movie.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 3 months, 3 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="6101">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="media" data-feedback-id="6102">
+<div class="media-content">
+<a href="../user/pattont.html"><strong>@pattont</strong></a>
+<div class="content">
+<span class="body">Also, thank you for the quick responses. Let me know if you want me to test a build before you publish here.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 3 months, 3 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="6102">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="6104">
+<div class="media-content">
+<a href="../user/Thetanis.html"><strong>@Thetanis</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">Great news. I should be able to make the adjustments pretty easily I would think. You mind sending me a DM on reddit so I can provide you a link later on to test the fix? /u/thetanis.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 3 months, 3 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="6104">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="6109">
+<div class="media-content">
+<a href="../user/pattont.html"><strong>@pattont</strong></a>
+<div class="content">
+<span class="body">Sent</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 3 months, 3 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="RAkMLOSGG9GFQXGG8qaRXAeKHMNG7sjRVh7fTccRkw6LAo37M1Nh0Ub3z2lML6Qv">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="3650">
+<input type="hidden" id="parent_id" name="parent_id" value="6109">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="advertisement" class="navbar is-fixed-bottom has-background-light" style="height: 80px;">
+<div class="container">
+<div class="rh-ad-container">
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="e5bbb87792991f7834ad636f-|49"></script><iframe src="https://viewm.moonicorn.network/#%7B%22options%22%3A%7B%22publisherAddr%22%3A%220xD0ca406a411FAA6F00F75a16617af27CbE778343%22%2C%22whitelistedTokens%22%3A%5B%220x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359%22%2C%220x6B175474E89094C44Da98b954EedeAC495271d0F%22%5D%2C%22whitelistedType%22%3A%22legacy_468x60%22%2C%22randomize%22%3Atrue%2C%22targeting%22%3A%5B%7B%22tag%22%3A%22computers%20%26%20electronics%22%2C%22score%22%3A75%7D%2C%7B%22tag%22%3A%22programming%22%2C%22score%22%3A75%7D%2C%7B%22tag%22%3A%22software%22%2C%22score%22%3A25%7D%2C%7B%22tag%22%3A%22web%20apps%20%26%20online%20tools%22%2C%22score%22%3A65%7D%2C%7B%22tag%22%3A%22ios%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22apple%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22mobile%20devices%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22online%20learning%22%2C%22score%22%3A75%7D%5D%2C%22width%22%3A%22468%22%2C%22height%22%3A%2260%22%2C%22minPerImpression%22%3A%220%22%2C%22minTargetingScore%22%3A%220%22%2C%22fallbackUnit%22%3Anull%2C%22marketSlot%22%3A%22QmceseR8Q1RrSGMjJw8SHZHoxXy5RnYnARKE5mzVixQBmx%22%7D%7D" width="468" height="60" scrolling="no" frameborder="0" style="border: 0;" onload="window.addEventListener('message', function(ev) { 
+		if (ev.data.hasOwnProperty('adexHeight') && ('https://viewm.moonicorn.network' === ev.origin)) {
+			for (let f of document.getElementsByTagName('iframe')) {	
+				if (f.contentWindow === ev.source) {
+					f.height = ev.data.adexHeight;
+				}
+			}	
+		}
+	}, false)"></iframe>
+</div>
+</div>
+</section>
+<footer class="footer">
+<div class="container">
+<div class="footer-links">
+<div class="columns has-text-right-desktop has-text-left-touch">
+<div class="column is-6 is-hidden-mobile">
+<div class="content has-text-white-ter has-text-left is-size-7">
+<p>Copyright © 2020 Hardly Software LLC. All rights reserved.</p>
+<p>We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Apple Inc., or any of its subsidiaries or its affiliates. The official Apple website can be found at <a href="https://www.apple.com/" class="has-text-white-ter">https://www.apple.com/</a>. The name “Apple” as well as related names, marks, emblems and images are registered trademarks of Apple Inc.</p>
+<p>The use in this website and/or in related promotional print or video material of trademarked names and images is strictly for editorial and descriptive purposes, and no commercial claim to their use, or suggestion of sponsorship or endorsement, is made by Hardly Software LLC. Those words or terms that the authors and publisher have reason to believe are trademarks are designated as such by the use of initial capitalization, where appropriate. However no attempt has been made to identify or designate all words or terms to which trademark or other proprietary rights may exist. Nothing contained herein is intended to express a judgment on, or affect the validity of legal status of, any word or term as a trademark, service mark, or other proprietary mark.</p>
+</div>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a href="../index.html">Home</a>
+</p>
+<p class="footer-link">
+<a href="../register/index.html">Sign up</a>
+</p>
+<p class="footer-link">
+<a href="../login/index.html">Log in</a>
+</p>
+<p class="footer-link">
+<a href="../blog/index.html">Blog</a>
+ </p>
+<p class="footer-link">
+<a href="../changelog.html">Changelog</a>
+</p>
+<p class="footer-link">
+<a href="https://app.usefathom.com/share/pisdlnji/routinehub">Analytics</a>
+</p>
+<p class="footer-link">
+<a href="https://stats.uptimerobot.com/5QODDT518" target="_blank">Status page</a>
+</p>
+<p class="footer-link">
+<a href="../shortcuts/latest/feed/index.html">RSS Feed</a>
+</p>
+<p class="footer-link">
+<a href="../faq/index.html">FAQ</a>
+</p>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a>Links</a>
+</p>
+<p class="footer-link">
+<a href="https://feedback.routinehub.co/" target="_blank">User Feedback</a>
+</p>
+<p class="footer-link">
+<a href="../ads/index.html">Advertising</a>
+</p>
+<p class="footer-link">
+<a href="../membership.html">Membership</a>
+</p>
+<p class="footer-link">
+<a href="https://routinehub.storenvy.com/" target="_blank">Shop</a>
+</p>
+<p class="footer-link">
+<a href="https://twitter.com/routinehub" target="_blank">Twitter</a>
+</p>
+<p class="footer-link">
+<a href="https://discord.gg/2xdeZxY" target="_blank">Discord (Chat)</a>
+</p>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a href="../terms/index.html">Legal</a>
+</p>
+<p class="footer-link">
+<a href="../terms/index.html">Terms of Service</a>
+</p>
+<p class="footer-link">
+<a href="../privacy/index.html">Privacy Policy</a>
+</p>
+<p class="footer-link">
+<a href="../cookies/index.html">Cookie Policy</a>
+</p>
+</div>
+<div class="column is-8 is-hidden-tablet">
+<div class="content has-text-white-ter has-text-left is-size-7">
+<p>Copyright © 2019 Hardly Software LLC. All rights reserved.</p>
+<p>We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Apple Inc., or any of its subsidiaries or its affiliates. The official Apple website can be found at <a href="https://www.apple.com/" class="has-text-white-ter">https://www.apple.com/</a>. The name “Apple” as well as related names, marks, emblems and images are registered trademarks of Apple Inc.</p>
+<p>The use in this website and/or in related promotional print or video material of trademarked names and images is strictly for editorial and descriptive purposes, and no commercial claim to their use, or suggestion of sponsorship or endorsement, is made by Hardly Software LLC. Those words or terms that the authors and publisher have reason to believe are trademarks are designated as such by the use of initial capitalization, where appropriate. However no attempt has been made to identify or designate all words or terms to which trademark or other proprietary rights may exist. Nothing contained herein is intended to express a judgment on, or affect the validity of legal status of, any word or term as a trademark, service mark, or other proprietary mark.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous" type="e5bbb87792991f7834ad636f-text/javascript"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" type="e5bbb87792991f7834ad636f-text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js" type="e5bbb87792991f7834ad636f-text/javascript"></script>
+<script src="https://routinehub-assets.s3.amazonaws.com/static/main/script.21.js" type="e5bbb87792991f7834ad636f-text/javascript"></script>
+<script src="https://routinehub-assets.s3.amazonaws.com/static/main/vendors/fancybox/jquery.fancybox.min.js" type="e5bbb87792991f7834ad636f-text/javascript"></script>
+<script type="e5bbb87792991f7834ad636f-text/javascript">
+		$('[data-fancybox="gallery"]').fancybox({
+			buttons: [
+			    "zoom",
+			    "fullScreen",
+			    "close"
+			],
+			protect: true,
+		});
+	</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="e5bbb87792991f7834ad636f-|49" defer=""></script></body>
+</html>

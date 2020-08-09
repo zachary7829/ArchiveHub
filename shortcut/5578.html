@@ -1,0 +1,488 @@
+
+<!DOCTYPE html>
+<html lang="en" class="shortcut">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="a tool to create and update notes in the Notes app or text in the iOS Clipboard">
+<meta property="og:url" content="/shortcut/5578" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="RoutineHub - Notes &amp; Clipboard Assistant" />
+<meta property="og:description" content="a tool to create and update notes in the Notes app or text in the iOS Clipboard" />
+<meta property="og:image" content="https://routinehub-assets.s3.amazonaws.com/media/shortcuts/icons/00fa86341f6442b7b640ab5e1d62f50a.png" />
+<meta name="twitter:card" content="summary" />
+<title>RoutineHub • Notes &amp; Clipboard Assistant</title>
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;" />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-310x310.png" />
+<link rel="stylesheet" type="text/css" href="https://routinehub-assets.s3.amazonaws.com/static/main/main.22.css" />
+<link rel="stylesheet" type="text/css" href="https://routinehub-assets.s3.amazonaws.com/static/main/vendors/fancybox/jquery.fancybox.min.css" />
+<script type="b1852407ee7f3ce78ff748c2-text/javascript">
+            (function(f, a, t, h, o, m){
+            a[h]=a[h]||function(){
+            (a[h].q=a[h].q||[]).push(arguments)
+            };
+            o=f.createElement('script'),
+            m=f.getElementsByTagName('script')[0];
+            o.async=1; o.src=t; o.id='fathom-script';
+            m.parentNode.insertBefore(o,m)
+            })(document, window, '//cdn.usefathom.com/tracker.js', 'fathom');
+            fathom('set', 'siteId', 'PISDLNJI');
+            fathom('trackPageview');
+        </script>
+</head>
+<body>
+<article class="message pop-up">
+<div class="message-header">
+<p class="message-title"></p>
+<button class="delete" aria-label="delete"></button>
+</div>
+<div class="message-body"></div>
+</article>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+<div class="container">
+<div class="navbar-brand">
+<a class="navbar-item" href="../index.html">
+<img src="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-32x32.png">
+<p>RoutineHub</p>
+</a>
+<p class="search-button navbar-item is-hidden-desktop"><i class="fas fa-search"></i></p>
+<div class="navbar-burger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+<div class="navbar-menu">
+<div class="navbar-end has-text-right">
+<p class="search-button navbar-item is-hidden-touch"><i class="fas fa-search"></i></p>
+<a href="../faq/index.html" class="navbar-item">About</a>
+<a href="../register/index.html" class="navbar-item">Sign up</a>
+<a href="../login/index.html" class="navbar-item">Log in</a>
+</div>
+</div>
+</div>
+</nav>
+<div class="search hide has-background-white-ter">
+<div class="search-bar">
+<div class="container">
+<form method="get" action="https://routinehub.co/search/">
+<div class="field has-addons has-addons-centered">
+<div class="control is-expanded">
+<input name="q" class="input" id="id_q" type="search">
+</div>
+<div class="control">
+<button type="submit" class="button is-dark">
+<i class="fas fa-search"></i>
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="banner has-background-success has-text-centered">
+<a href="../register/index.html">
+<div class="text">
+<strong>RoutineHub is a growing community around Siri Shortcuts. Click here to create your account and get started!</strong>
+</div>
+</a>
+</div>
+<section id="content" class="section">
+<div class="container">
+<article class="media shortcut-header">
+<figure class="media-left">
+<p class="image app is-64x64">
+<img src="https://routinehub-assets.s3.amazonaws.com/media/shortcuts/icons/00fa86341f6442b7b640ab5e1d62f50a.png">
+</p>
+</figure>
+<div class="media-content">
+<div class="content">
+<div class="titles">
+<h3 class="title is-3">Notes &amp; Clipboard Assistant</h3>
+<h4 class="subtitle is-4">a tool to create and update notes in the Notes app or text in the iOS Clipboard</h4>
+</div>
+</div>
+</article>
+<hr>
+<div class="columns">
+<div class="column sidebar is-2">
+<div class="actions">
+<a href="../download/18439.html" target="_blank" class="button is-dark is-fullwidth">Get Shortcut</a>
+<a href="5578/report.html" class="button is-danger is-fullwidth">Report</a>
+</div>
+<br>
+<div class="heart has-text-centered" data-id="5578">
+<span class="heart-icon ">
+<i class="fas fa-heart fa-lg"></i>
+</span>
+<span class="heart-count">1</span>
+</div>
+<br>
+<p class="has-text-centered"><a href="../login/index.html" style="text-decoration: underline;">Log in</a> or <a href="../register/index.html" style="text-decoration: underline;">sign up</a> to heart</p>
+<br>
+<p class="is-size-5"><strong>Information</strong></p>
+<div class="information">
+<p>Author:
+<a href="../user/JimSauer.html"><strong>@JimSauer</strong></a>
+<p>Version: 2.0</p>
+<p>iOS: 13</p>
+<p>Updated: 06/30/20</p>
+<p>Downloads: 308</p>
+<p>Categories:</p>
+<ul class="fa-ul">
+<li>
+<a href="../category/productivity.html">
+<span class="fa-li">
+<i class="fas fa-paperclip"></i>
+</span>
+Productivity
+</a>
+</li>
+</ul>
+</div>
+<hr>
+<p class="is-size-5"><strong>Required Apps</strong></p>
+<div class="apps columns is-mobile is-multiline">
+<div class="column none"><em>None</em></div>
+</div>
+<hr>
+<div class="qr-code has-text-centered is-hidden-mobile">
+<img src="https://api.qrserver.com/v1/create-qr-code/?data=https://routinehub.co/download/18439" />
+<p class="is-size-7"><em>Scan using your iPhone's camera to download</em></p>
+</div>
+</div>
+<div class="column is-10 details">
+<div class="description">
+<h4 class="title is-4">Description</h4>
+<div class="content">
+<h3>Purpose</h3>
+<p><strong>&#63743;Notes &amp; Clipboard Assistant</strong> is a versatile shortcut that can be used to create and update iOS <em>&#63743;Notes</em> or any other iOS application that uses <em>text</em>. It is particularly useful for creating consistently formatted time-stamped logs/lists. This help includes seven possible uses:</p>
+<ul>
+<li><em>Dictate and create a quick note</em></li>
+<li><em>Append to a bulleted list</em></li>
+<li><em>Insert an annotated URL into a favorite list (using Safari)</em></li>
+<li><em>Share the Clipboard and a YouTube video using Messages</em></li>
+<li><em>Save links to interesting iOS applications</em></li>
+<li><em>Convert a PDF to a note</em></li>
+<li><em>Save a link from a third-party application</em></li>
+</ul>
+<p><strong>&#63743;Notes &amp; Clipboard Assistant</strong> was designed to do its tasks quickly and with minimal shortcut interaction. It can be customized with several <em>Configuration Parameters</em>, described at the end of this help.</p>
+<p><em>A video overview of <a href="5578.html">&#63743;Notes &amp; Clipboard Assistant</a> is available <a href="https://www.youtube.com/playlist?list=PL5PEwdyatL4KTG7w2FPATF0r7P3DMjcD3">here</a>.</em></p>
+<hr>
+<h3>Description</h3>
+<p><strong>&#63743;Notes &amp; Clipboard Assistant</strong> can assist in the <em>creation</em> (or <em>prependation</em> or <em>appendation</em>) of a note in the iOS <em>&#63743;Notes</em> app or text in the iOS <em>Clipboard</em> which can then be optionally shared with an other iOS app that uses text.</p>
+<p>As the shortcut runs, it constructs text that includes the following optional elements:</p>
+<p>[Start of Prefix<em>][Current Date] [Current Time][, Note Author</em>]
+[Dictated Text]
+[Shortcut Input**]</p>
+<p>* When the shortcut runs, the <strong>Start of Prefix</strong> can be specified from the <em>main menu</em> or by speaking a dictionary key at the beginning of the dictated text. That <strong>Start of Prefix</strong> DICTIONARY and the <strong>Note Author</strong> are defined during initial shortcut configuration or later by using <strong>Details</strong> &gt; <strong>Customize Shortcut</strong> or by manually changing actions in the <strong>Configuration Parameters</strong> section of this shortcut. All other text elements shown above are set during shortcut execution.</p>
+<p>** If the shortcut is started from the iOS <em>Share Sheet</em>.</p>
+<hr>
+<h3>Example Usages</h3>
+<p>The versatility and configurability of this shortcut is most easily described using examples. This section is not exhaustive, but does demonstrate several possible uses of <strong>&#63743;Notes &amp; Clipboard Assistant</strong>.</p>
+<h4>Example 1 -- <em>Dictate and create a quick note</em></h4>
+<p>The <em>main menu</em> is normally used to select the note prefix. The menu <strong>Date</strong> and <strong>Time</strong> are dynamic and the <strong>Author</strong> reflects the configured name. Once the prefix is selected, the <em>Dictate text</em> screen appears. The red square is used to stop capturing <em>optional</em> speech.</p>
+<p>Note: The <em>dictation quick reference</em> at the top of the man menu will be discussed in subsequent examples.</p>
+<p><img alt="" src="https://i.imgur.com/qBbPBS7.png"></p>
+<p>In this example, the <strong>Start of Prefix</strong> was not changed, thus the default value, twenty dashes{newline}*, is used and indicated at the top of the <em>action menu</em>. In this case, <strong>New &#63743;Note &bull; &#9391;</strong> is selected, thus the generated text is inserted into a new note in the iOS <em>&#63743;Notes</em> app. The text is placed on the second line so that the title can be manually added by the user.</p>
+<p>* The <strong>Start of Prefix</strong> options and other values can be changed via shortcut <strong>Configuration Parameters</strong>.</p>
+<p><img alt="" src="https://i.imgur.com/qa2ytUQ.png"></p>
+<h4>Example 2 -- <em>Append to a bulleted list</em></h4>
+<p>In this example, the <strong>Start of Prefix</strong> needs to be changed to a &bull;{space}. The <strong>Start of Prefix DICTIONARY</strong> can be accessed from the <em>main menu</em>. </p>
+<p><img alt="" src="https://i.imgur.com/8hTVMIO.png"></p>
+<p>Once the <strong>Start of Prefix</strong> selection is made, the <em>main menu</em> reappears. In this example, no <em>Date/Time/Author</em> prefix is needed.</p>
+<p><img alt="" src="https://i.imgur.com/ZyImfq0.png"></p>
+<p>Occasionally when using <em>Dictate text</em>, the speech is incorrectly captured. To correct this issue <strong>$.</strong> can be used to effectively restart the dictation process: say <em>dollar sign period</em> </p>
+<p>Note: The top of the <em>main menu</em> (above) includes <em>dictation quick reference</em>. <em>$. Rstr</em> used in this example is indicated along with other items that will be discussed in subsequent examples.</p>
+<p>The red square is used to stop capturing speech and continue to display the <em>action menu</em> that includes the <strong>Select &#63743;Note &bull; &#127357; &#9391;</strong> option.</p>
+<p>Note: <em>Blah blah blah</em> was spoken in this example for $. demonstration only. </p>
+<p><img alt="" src="https://i.imgur.com/aTfS7uV.png"></p>
+<p>After selecting one of the existing notes, the new text, <em>&bull; A new bullet</em>, is appended and the updated note is displayed.</p>
+<p>Note: The notes that appear at the top of the <strong>Choose</strong> list include a &#128204;, <strong>Log</strong>, or <strong>List</strong> in the name. This is because these have been set as <em>Priority Notes</em> during the shortcut configuration. Refer to the final section of this help for more information. If a target note does not appear at the top of the list, the list can be scrolled or the <em>Search</em> filed can be used to locate the note.</p>
+<p><img alt="" src="https://i.imgur.com/5NLt3FJ.png"></p>
+<h4>Example 3 -- <em>Insert an annotated URL into a favorite list (using Safari)</em></h4>
+<p>In this example, <strong>&#63743;Notes &amp; Clipboard Assistant</strong> is started from <em>Safari</em> using the <em>Share Sheet</em>. </p>
+<p>Note: Below in the <em>Share Sheet</em>, <strong>&#63743;Notes &amp; Clipboard Assistant</strong> appears just after <strong>Copy</strong>. This was changed by modifying the order of the actions using <strong>Edit Actions...</strong> that always appears at the bottom of the <em>Share Sheet</em>.</p>
+<p><img alt="" src="https://i.imgur.com/O4ko6FX.jpg"></p>
+<p>Once a <em>prefix</em> option is selected from the <strong>&#63743;Notes &amp; Clipboard Assistant</strong> <em>main menu</em>, <em>Dictate text</em> appears. In this example, an alternative method of specifying the <strong>Start of Prefix</strong> is demonstrated. (In the example above, the <em>main menu</em> was used.) This is done by speaking the <strong>Start of Prefix</strong> DICTIONARY Key followed by a period as indicated in <em>dictation quick reference</em> at the top of the <em>main menu</em>: <em>/n. SoP</em></p>
+<p>To summarize, in this example, the following was spoken before tapping the red square: <em>slash zero period micah 6 colon 8</em></p>
+<p><img alt="" src="https://i.imgur.com/9qUa9eZ.png"></p>
+<p>Since the <strong>Safari</strong> <em>Share Sheet</em> was used, the URL passed via the <em>Shortcut Input</em> is shortened and presented as an alternative to the <em>Native URL</em>. After selection, the <em>URL choice</em> and the <em>dictated text</em> are reflected at the top of the <em>action menu</em>. Then one of the <em>Clipboard</em> options*, <strong>Replace</strong>:&#9391; &#8674; &#8984;&#127282; / <strong>Prepend</strong>:&#9391; &#127346;&#127345; &#8674; &#8984;&#127282; / <strong>Append</strong>:&#127346;&#127345; &#9391; &#8674; &#8984;&#127282;, combined with <strong>Select &#63743;Note</strong>, could be used to <em>insert</em> the text generated by this shortcut. In this example, <strong>&#9391; &#8674; &#8984;&#127282; &bull; Select &#63743;Note</strong> is selected.</p>
+<p>* The iOS <em>Shortcuts</em> app does not include an action to <em>prepend</em> text into an existing note; <em>Create Note</em> and <em>Append to Note</em> are the only actions provided. Thus to <em>prepend</em> or <em>insert</em> text, the iOS <em>Clipboard</em> must be employed.</p>
+<p><img alt="" src="https://i.imgur.com/7ziDZmF.png"></p>
+<p>The shortcut generated text, <em>dictated text</em> + <em>information passed via the Share Sheet (shortened)</em>, is used to <em>update</em> the <em>Clipboard</em>. When one of the existing notes is selected, it will be opened but not automatically changed.</p>
+<p><img alt="" src="https://i.imgur.com/3zIMEox.png"></p>
+<p>The text generated by this shortcut and used to update the iOS <em>Clipboard</em> can be inserted using normal iOS <em>&#63743;Notes</em> app editing actions.</p>
+<p><img alt="" src="https://i.imgur.com/jiArbNB.jpg">
+<img alt="" src="https://i.imgur.com/G1OU9yL.jpg">
+<img alt="" src="https://i.imgur.com/d6BgpxN.jpg"></p>
+<h4>Example 4 -- <em>Share the Clipboard and a YouTube video using Messages</em></h4>
+<p>In this example, a URL for a video in the <em>YouTube</em> app will be appended to the contents of the iOS <em>Clipboard</em>. The resulting text will be shared using the iOS <em>Messages</em> app.</p>
+<p>To start, within the <em>YouTube</em> app the <em>Share</em> button is tapped and the <em>YouTube</em> app <em>Share</em> dialog opens. Additional <em>Share</em> options are visible by dragging to the left.</p>
+<p><img alt="" src="https://i.imgur.com/ItXILK1.jpg"></p>
+<p>Tapping the <em>More (...)</em> button displays the standard iOS <em>Share Sheet</em>. Here <strong>&#63743;Notes &amp; Clipboard Assistant</strong> can be started and the <em>YouTube</em> URL will be passed via the <em>Shortcut Input</em>. </p>
+<p>Note: In this example <strong>&#63743;Notes &amp; Clipboard Assistant</strong> appears just after <strong>Copy</strong>. This was changed by modifying the order of the actions using <strong>Edit Actions...</strong> that always appears at the bottom of the <em>Share Sheet</em>.</p>
+<p><img alt="" src="https://i.imgur.com/C0wMeUi.jpg"></p>
+<p><strong>Date Time</strong> will be added to the text. In the <em>Dictate text</em> dialog <em>/0.</em> (speak <em>slash zero period</em>) selects the respective <strong>Start of Prefix</strong> value, NUL.</p>
+<p><img alt="" src="https://i.imgur.com/93pX4pL.png"></p>
+<p>After selecting the <strong>Shortened URL</strong> from the <em>URL menu</em>, <strong>&#127346;&#127345; &#9391; &bull; Share</strong> is selected to append the text, <strong>Start of Prefix</strong> (<em>NUL</em> in this case) + <strong>Date Time</strong> + <em>dictated text</em> + <strong>YouTube Shortened URL</strong>, to the contents of the iOS <em>Clipboard</em>.</p>
+<p>Note: With the last three actions, <strong>Share</strong>, <strong>Prepend to Clipboard &bull; Share</strong>, <strong>&#127346;&#127345; &#9391; &bull; Share</strong>, the contents of the <em>Clipboard</em> are <em>used</em> but the <em>Clipboard</em> itself is <em>not changed</em>.</p>
+<p><img alt="" src="https://i.imgur.com/FFQjgYy.png"></p>
+<p><em>Messages</em> is selected from the standard iOS <em>Share Sheet</em> and the text from the shortcut is automatically loaded.</p>
+<p><img alt="" src="https://i.imgur.com/XrQgSUw.jpg"></p>
+<h4>Example 5 -- <em>Save links to interesting iOS applications</em></h4>
+<p>In this example, a link to an iOS app will be appended to a list of others. In addition, all of the items in the <em>dictation quick reference</em> (top of <em>main menu</em>) will be used to review how <em>Configuration Parameters</em> can be superseded using the <em>Dictate text</em> dialog.</p>
+<p>In this case, <strong>&#63743;Notes &amp; Clipboard Assistant</strong> is started from the <em>App Store</em> <em>Share Sheet</em>.</p>
+<p>Note: Below in the <em>Share Sheet</em>, <strong>&#63743;Notes &amp; Clipboard Assistant</strong> appears just after <strong>Copy Link</strong>. This was changed by modifying the order of the actions using <strong>Edit Actions...</strong> that always appears at the bottom of the <em>Share Sheet</em>.</p>
+<p><img alt="" src="https://i.imgur.com/zTpihTK.jpg"></p>
+<p><strong>Date</strong> is selected for the <strong>Date/Time/Author</strong> prefix. Although a bit contrived for demonstration, three different codes are used during <em>Dictate text</em>:</p>
+<ol>
+<li>[ <strong>$.</strong> ] ignore preceding speech capture (used to <em>start over</em> when the <em>Dictate text</em> action occasionally misinterprets user speech)</li>
+<li>[ <strong>/7.</strong> ] use the <strong>Start of Prefix</strong> value corresponding to the <strong>/7</strong> Key</li>
+<li>[ <strong>-.</strong> ] shorten the URL (bypass the <em>Native/Shortened URL</em> menu)</li>
+</ol>
+<p>Note: <em>Blah blah blah</em> was spoken in this example for $. demonstration only. </p>
+<p><img alt="" src="https://i.imgur.com/1rkBWFP.png"></p>
+<p>The shortcut-generated text is indicated at the top of the <em>action menu</em> and <strong>Select &#63743;Note &bull; &#127357; &#9391;</strong> is selected. Then the existing note, <strong>Interesting iOS Apps List</strong> is selected.</p>
+<p><img alt="" src="https://i.imgur.com/h7lhx72.png"></p>
+<p>Once the note is opened and the text is appended, it can of course be be modified and/or supplemented as with any other note in the <em>&#63743;Notes</em> app.</p>
+<p><img alt="" src="https://i.imgur.com/NMKgcuV.jpg">
+<img alt="" src="https://i.imgur.com/BGNT6f6.jpg"></p>
+<h4>Example 6 -- <em>Convert a PDF to a Note</em></h4>
+<p>Leveraging the incredible power built into the <em>Shortcuts</em> app, this shortcut can even be used as a crude <em>PDF to text</em> conversion tool. In this case, a <em>Mail</em> message was saved as PDF to the <em>iCloud Drive</em>.</p>
+<p>Using the iOS <em>Files</em> app, the PDF is opened, and <strong>&#63743;Notes &amp; Clipboard Assistant</strong> is started from the <em>Share Sheet</em>.</p>
+<p><img alt="" src="https://i.imgur.com/umpG8sW.jpg"></p>
+<p>After starting <strong>&#63743;Notes &amp; Clipboard Assistant</strong> from the <em>Share Sheet</em>, the <em>main menu</em> appears and the <em>prefix</em> selection is made.</p>
+<p>Note: Below in the <em>Share Sheet</em>, <strong>&#63743;Notes &amp; Clipboard Assistant</strong> appears just after <strong>Copy</strong>. This was changed by modifying the order of the actions using <strong>Edit Actions...</strong> that always appears at the bottom of the <em>Share Sheet</em>.</p>
+<p><img alt="" src="https://i.imgur.com/bWB15Ls.jpg"></p>
+<p>To override the configured default <strong>Start of Prefix</strong>, <em>/0.</em> (<em>slash zero period</em>) is used. The spoken text and the first portion of the converted PDF then appears at the top of the <em>action menu</em>.</p>
+<p><img alt="" src="https://i.imgur.com/4QPFfVa.png"></p>
+<p>A new note opens and it can be modified and supplemented like any other note in the <em>&#63743;Notes</em> app. In this case a title is added. Note that the <em>&#63743;Notes</em> app automatically sets the title to bold text.</p>
+<p><img alt="" src="https://i.imgur.com/XBLRZbH.jpg">
+<img alt="" src="https://i.imgur.com/oTcN3pw.jpg"></p>
+<h4>Example 7 -- <em>Save a link from a third-party application</em></h4>
+<p>Any third-party app that can access the standard iOS <em>Share Sheet</em> can share information with <strong>&#63743;Notes &amp; Clipboard Assistant</strong> via the <em>Shortcut Input</em>. Some applications pass more than one element. For example, the <em>Reeder</em> app, shown below, passes a <em>Article Title</em> as well as the <em>URL</em>.</p>
+<p>For the <strong>Reeder</strong> app, access to the standard iOS <em>Share Sheet</em> is done using the <em>More...</em> item. </p>
+<p><img alt="" src="https://i.imgur.com/oCKIkfF.jpg"></p>
+<p><strong>&#63743;Notes &amp; Clipboard Assistant</strong> is started and the <strong>Date</strong> prefix is selected.</p>
+<p>Note: In this example <strong>&#63743;Notes &amp; Clipboard Assistant</strong> appears just after <strong>Copy</strong>. This was changed by modifying the order of the actions using <strong>Edit Actions...</strong> that always appears at the bottom of the <em>Share Sheet</em>.</p>
+<p><img alt="" src="https://i.imgur.com/lBIisOY.jpg"></p>
+<p><strong>$.</strong> is used to restart speech capture and <strong>/0.</strong> and <strong>-.</strong> were also spoken to supersede the default values for <strong>Start of Prefix</strong> and <strong>URL Form</strong>, two of the <strong>Configuration Parameters</strong>.</p>
+<p>* The <em>Dictate text</em> action will normally capture <em>slash zero period</em> speech as <strong>/0.</strong>; however, occasionally this speech will be captured as indicated below: <strong>/Zero.</strong> That is not a problem; either format will be properly interpreted by this shortcut.</p>
+<p>Note: <em>Blah blah blah</em> was spoken in this example for $. demonstration only. </p>
+<p><img alt="" src="https://i.imgur.com/V1HDJZJ.png"></p>
+<p>The <em>Reeder</em> app, supplied the <em>Article Title</em> (<em>AppStories, Episode 172...</em>) and the Native URL which was shortened by the shortcut. </p>
+<p>In this example, a note title, automatically bold, is manually entered.</p>
+<p><img alt="" src="https://i.imgur.com/oz4uWrU.jpg"></p>
+<hr>
+<h3>Shortcut Configuration</h3>
+<p><strong>&#63743;Notes &amp; Clipboard Assistant</strong> can be configured when it is added to the shortcut Library or anytime after using <strong>Details</strong> &gt; <strong>Customize Shortcut...</strong>.</p>
+<p><img alt="" src="https://i.imgur.com/yGNXlel.jpg"></p>
+<p>When <strong>Customize Shortcut...</strong> is selected, the following <strong>&#63743;Notes &amp; Clipboard Assistant</strong> information is displayed. On this screen, there is nothing to configure. After scrolling and reading, click the blue <strong>Continue</strong> button.</p>
+<p><img alt="" src="https://i.imgur.com/jDoiwCb.png"></p>
+<p>The <strong>Start of Prefix DICTIONARY</strong> is the first configuration parameter. After reading, scrolling, and optional changes, click the blue <strong>Continue</strong> button.</p>
+<p><img alt="" src="https://i.imgur.com/45kWS6F.png"></p>
+<p><strong>Note Author</strong> and <strong>Include Prompt for Optional Dictation?</strong> are the next two configuration parameters. After each optional change, click the blue <strong>Continue</strong> button.</p>
+<p><img alt="" src="https://i.imgur.com/dtNyg3p.png"></p>
+<p><strong>URL Form</strong> and <strong>Suppress Notifications</strong> are the final configuration parameters. </p>
+<p>With <strong>URL Form</strong>, valid settings are <strong>+</strong>, <strong>-</strong>, <strong>?</strong>, or <strong>two integers</strong> separated by a <strong>|</strong>, e.g., <strong>50 | 150</strong>. In this case, when the <strong>Shortcut Input</strong> includes a URL: </p>
+<ol>
+<li>
+<p>the <em>Native</em> URL will be used whenever it is 50 or fewer characters in length, </p>
+</li>
+<li>
+<p>the <em>Shortened</em> URL will be used whenever the Native URL is 150 or greater characters, and</p>
+</li>
+<li>
+<p>a menu will be presented with <em>Native</em> and <em>Shortened</em> as options when the <em>Native</em> URL is 51 to 149 characters. Refer the the <strong>Insert text into a favorite URL list (using Safari)</strong> example for the format of the menu.</p>
+</li>
+</ol>
+<p>After an reading, scrolling, and optional changes, click the blue <strong>Continue</strong> button.</p>
+<p><img alt="" src="https://i.imgur.com/4wH07Gh.png"></p>
+<p>After reading, scrolling, and optional changes to the <strong>Priority Notes</strong> list, click the blue <strong>Continue</strong> button.</p>
+<p><img alt="" src="https://i.imgur.com/QRZL4ZU.png"></p>
+<p>After optional changes to <strong>Number of Last Modified &#63743;Notes</strong> and <strong>Supress Notifications?</strong>, click the blue <strong>Continue</strong> and <strong>Done</strong> buttons, respectively.</p>
+<p><img alt="" src="https://i.imgur.com/wG8oA2x.png"></p>
+<hr>
+<h3>Shortcut Testing</h3>
+<p><a href="5578.html">&#63743;Notes &amp; Clipboard Assistant</a> has been tested with the following:</p>
+<ul>
+<li>iOS 13.5.1</li>
+<li>iPhone 8 Plus</li>
+<li>iPad Pro 10.5"</li>
+</ul>
+<hr>
+<h3>Shortcut Development and Acknowledgments</h3>
+<ul>
+<li>
+<p><strong>&#63743;Notes &amp; Clipboard Assistant</strong> is available exclusively at <a href="../index.html">RoutineHub.co</a>. Versions obtained elsewhere might be out-of-date.</p>
+</li>
+<li>
+<p>The framed screenshots were created using the shortcut <strong>Apple Frames (iOS)</strong> from the <a href="https://www.macstories.net/shortcuts/">MacStories Shortcuts Archive</a>. Some screenshots were modified using the iOS app <a href="https://apps.apple.com/us/app/annotable-annotation-markup/id1099850421">Annotable</a>. Video demonstrations were created with the macOS application <a href="https://www.telestream.net/screenflow">ScreenFlow</a>.</p>
+</li>
+<li>
+<p>The menus in this shortcut use Apple <a href="https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/">SF Symbols</a> that were encoded using another shortcut <a href="4254.html">SF Symbol for vCard Menu</a>. That shortcut uses the <em>Create Icon</em> action included in the premium version of <a href="https://toolboxpro.app">Toolbox Pro</a>.</p>
+</li>
+<li>
+<p><strong>&#63743;Notes &amp; Clipboard Assistant</strong> checks for updates of itself every 7 days using <a href="2672.html">Embed-a-Update</a> (Version: 1.1.2, Updated: 10/13/19).</p>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<div class="latest-release">
+<h4 class="title is-4">Latest Release Notes</h4>
+<p><strong>2.0 - June 30, 2020, 1:27 a.m.</strong></p>
+<p>Bug Fix:<br><br>- Added logic to circumvent an iOS 13.5.1 Shortcuts app &#39;Find Notes (All Items)&#39; bug. For a full explanation, read the comments within the shortcut or refer to [Note Smart List (All Notes subset)](https://routinehub.co/shortcut/5768).<br><br>New/Modified Features:<br><br>- Added two Configuration Options, &#39;Priority Notes&#39; and &#39;Number of Last Modified Notes&#39;, to optimize presented Notes lists.<br><br>- Changed the name of the shortcut from &#39;Notes &amp; Clipboard Assistant&#39; to &#39;Notes &amp; Clipboard Assistant&#39;.<br><br>- Modified the action menu item descriptions to better represent the shortcut options.<br><br>- Updated the Help text and images to reflect the shortcut modifications. Also added the following to the help HTML and removed actions that manually converted the unicode characters to HTLM codes.<br>&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;</p>
+<br>
+<a href="5578/changelog.html" class="button is-dark">Past versions</a>
+</div>
+<hr>
+<div class="feedback">
+<h4 class="title is-4">Feedback</h4>
+<p><a href="../login/index.html" style="text-decoration: underline;">Log in</a> or <a href="../register/index.html" style="text-decoration: underline;">sign up</a> to leave feedback.</p>
+<br>
+<p>No feedback yet</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="advertisement" class="navbar is-fixed-bottom has-background-light" style="height: 80px;">
+<div class="container">
+<div class="rh-ad-container">
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="b1852407ee7f3ce78ff748c2-|49"></script><iframe src="https://viewm.moonicorn.network/#%7B%22options%22%3A%7B%22publisherAddr%22%3A%220xD0ca406a411FAA6F00F75a16617af27CbE778343%22%2C%22whitelistedTokens%22%3A%5B%220x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359%22%2C%220x6B175474E89094C44Da98b954EedeAC495271d0F%22%5D%2C%22whitelistedType%22%3A%22legacy_468x60%22%2C%22randomize%22%3Atrue%2C%22targeting%22%3A%5B%7B%22tag%22%3A%22computers%20%26%20electronics%22%2C%22score%22%3A75%7D%2C%7B%22tag%22%3A%22programming%22%2C%22score%22%3A75%7D%2C%7B%22tag%22%3A%22software%22%2C%22score%22%3A25%7D%2C%7B%22tag%22%3A%22web%20apps%20%26%20online%20tools%22%2C%22score%22%3A65%7D%2C%7B%22tag%22%3A%22ios%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22apple%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22mobile%20devices%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22online%20learning%22%2C%22score%22%3A75%7D%5D%2C%22width%22%3A%22468%22%2C%22height%22%3A%2260%22%2C%22minPerImpression%22%3A%220%22%2C%22minTargetingScore%22%3A%220%22%2C%22fallbackUnit%22%3Anull%2C%22marketSlot%22%3A%22QmceseR8Q1RrSGMjJw8SHZHoxXy5RnYnARKE5mzVixQBmx%22%7D%7D" width="468" height="60" scrolling="no" frameborder="0" style="border: 0;" onload="window.addEventListener('message', function(ev) { 
+		if (ev.data.hasOwnProperty('adexHeight') && ('https://viewm.moonicorn.network' === ev.origin)) {
+			for (let f of document.getElementsByTagName('iframe')) {	
+				if (f.contentWindow === ev.source) {
+					f.height = ev.data.adexHeight;
+				}
+			}	
+		}
+	}, false)"></iframe>
+</div>
+</div>
+</section>
+<footer class="footer">
+<div class="container">
+<div class="footer-links">
+<div class="columns has-text-right-desktop has-text-left-touch">
+<div class="column is-6 is-hidden-mobile">
+<div class="content has-text-white-ter has-text-left is-size-7">
+<p>Copyright © 2020 Hardly Software LLC. All rights reserved.</p>
+<p>We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Apple Inc., or any of its subsidiaries or its affiliates. The official Apple website can be found at <a href="https://www.apple.com/" class="has-text-white-ter">https://www.apple.com/</a>. The name “Apple” as well as related names, marks, emblems and images are registered trademarks of Apple Inc.</p>
+<p>The use in this website and/or in related promotional print or video material of trademarked names and images is strictly for editorial and descriptive purposes, and no commercial claim to their use, or suggestion of sponsorship or endorsement, is made by Hardly Software LLC. Those words or terms that the authors and publisher have reason to believe are trademarks are designated as such by the use of initial capitalization, where appropriate. However no attempt has been made to identify or designate all words or terms to which trademark or other proprietary rights may exist. Nothing contained herein is intended to express a judgment on, or affect the validity of legal status of, any word or term as a trademark, service mark, or other proprietary mark.</p>
+</div>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a href="../index.html">Home</a>
+</p>
+<p class="footer-link">
+<a href="../register/index.html">Sign up</a>
+</p>
+<p class="footer-link">
+<a href="../login/index.html">Log in</a>
+</p>
+<p class="footer-link">
+<a href="../blog/index.html">Blog</a>
+</p>
+<p class="footer-link">
+<a href="../changelog.html">Changelog</a>
+</p>
+<p class="footer-link">
+<a href="https://app.usefathom.com/share/pisdlnji/routinehub">Analytics</a>
+</p>
+<p class="footer-link">
+<a href="https://stats.uptimerobot.com/5QODDT518" target="_blank">Status page</a>
+</p>
+<p class="footer-link">
+<a href="../shortcuts/latest/feed/index.html">RSS Feed</a>
+</p>
+<p class="footer-link">
+<a href="../faq/index.html">FAQ</a>
+</p>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a>Links</a>
+</p>
+<p class="footer-link">
+<a href="https://feedback.routinehub.co/" target="_blank">User Feedback</a>
+</p>
+<p class="footer-link">
+<a href="../ads/index.html">Advertising</a>
+</p>
+<p class="footer-link">
+<a href="../membership.html">Membership</a>
+ </p>
+<p class="footer-link">
+<a href="https://routinehub.storenvy.com/" target="_blank">Shop</a>
+</p>
+<p class="footer-link">
+<a href="https://twitter.com/routinehub" target="_blank">Twitter</a>
+</p>
+<p class="footer-link">
+<a href="https://discord.gg/2xdeZxY" target="_blank">Discord (Chat)</a>
+</p>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a href="../terms/index.html">Legal</a>
+</p>
+<p class="footer-link">
+<a href="../terms/index.html">Terms of Service</a>
+</p>
+<p class="footer-link">
+<a href="../privacy/index.html">Privacy Policy</a>
+</p>
+<p class="footer-link">
+<a href="../cookies/index.html">Cookie Policy</a>
+</p>
+</div>
+<div class="column is-8 is-hidden-tablet">
+<div class="content has-text-white-ter has-text-left is-size-7">
+<p>Copyright © 2019 Hardly Software LLC. All rights reserved.</p>
+<p>We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Apple Inc., or any of its subsidiaries or its affiliates. The official Apple website can be found at <a href="https://www.apple.com/" class="has-text-white-ter">https://www.apple.com/</a>. The name “Apple” as well as related names, marks, emblems and images are registered trademarks of Apple Inc.</p>
+<p>The use in this website and/or in related promotional print or video material of trademarked names and images is strictly for editorial and descriptive purposes, and no commercial claim to their use, or suggestion of sponsorship or endorsement, is made by Hardly Software LLC. Those words or terms that the authors and publisher have reason to believe are trademarks are designated as such by the use of initial capitalization, where appropriate. However no attempt has been made to identify or designate all words or terms to which trademark or other proprietary rights may exist. Nothing contained herein is intended to express a judgment on, or affect the validity of legal status of, any word or term as a trademark, service mark, or other proprietary mark.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous" type="b1852407ee7f3ce78ff748c2-text/javascript"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" type="b1852407ee7f3ce78ff748c2-text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js" type="b1852407ee7f3ce78ff748c2-text/javascript"></script>
+<script src="https://routinehub-assets.s3.amazonaws.com/static/main/script.21.js" type="b1852407ee7f3ce78ff748c2-text/javascript"></script>
+<script src="https://routinehub-assets.s3.amazonaws.com/static/main/vendors/fancybox/jquery.fancybox.min.js" type="b1852407ee7f3ce78ff748c2-text/javascript"></script>
+<script type="b1852407ee7f3ce78ff748c2-text/javascript">
+		$('[data-fancybox="gallery"]').fancybox({
+			buttons: [
+			    "zoom",
+			    "fullScreen",
+			    "close"
+			],
+			protect: true,
+		});
+	</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="b1852407ee7f3ce78ff748c2-|49" defer=""></script></body>
+</html>

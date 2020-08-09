@@ -1,0 +1,705 @@
+
+<!DOCTYPE html>
+<html lang="en" class="shortcut">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="Keep track of practice question progress across all board-prep platforms">
+<meta property="og:url" content="/shortcut/1394" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="RoutineHub - Question Bank Question Counter" />
+<meta property="og:description" content="Keep track of practice question progress across all board-prep platforms" />
+<meta property="og:image" content="https://routinehub-assets.s3.amazonaws.com/media/shortcuts/icons/b66f57a864834388a65a7b07328c569a.png" />
+<meta name="twitter:card" content="summary" />
+<title>RoutineHub • Question Bank Question Counter</title>
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;" />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-310x310.png" />
+<link rel="stylesheet" type="text/css" href="https://routinehub-assets.s3.amazonaws.com/static/main/main.22.css" />
+<link rel="stylesheet" type="text/css" href="https://routinehub-assets.s3.amazonaws.com/static/main/vendors/fancybox/jquery.fancybox.min.css" />
+<script type="86f4449476514c26e0af3013-text/javascript">
+            (function(f, a, t, h, o, m){
+            a[h]=a[h]||function(){
+            (a[h].q=a[h].q||[]).push(arguments)
+            };
+            o=f.createElement('script'),
+            m=f.getElementsByTagName('script')[0];
+            o.async=1; o.src=t; o.id='fathom-script';
+            m.parentNode.insertBefore(o,m)
+            })(document, window, '//cdn.usefathom.com/tracker.js', 'fathom');
+            fathom('set', 'siteId', 'PISDLNJI');
+            fathom('trackPageview');
+        </script>
+</head>
+<body>
+<article class="message pop-up">
+<div class="message-header">
+<p class="message-title"></p>
+<button class="delete" aria-label="delete"></button>
+</div>
+<div class="message-body"></div>
+</article>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+<div class="container">
+<div class="navbar-brand">
+<a class="navbar-item" href="../index.html">
+<img src="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-32x32.png">
+<p>RoutineHub</p>
+</a>
+<p class="search-button navbar-item is-hidden-desktop"><i class="fas fa-search"></i></p>
+<div class="navbar-burger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+<div class="navbar-menu">
+<div class="navbar-end has-text-right">
+<p class="search-button navbar-item is-hidden-touch"><i class="fas fa-search"></i></p>
+<a href="../faq/index.html" class="navbar-item">About</a>
+<a href="../register/index.html" class="navbar-item">Sign up</a>
+<a href="../login/index.html" class="navbar-item">Log in</a>
+</div>
+</div>
+</div>
+</nav>
+<div class="search hide has-background-white-ter">
+<div class="search-bar">
+<div class="container">
+<form method="get" action="https://routinehub.co/search/">
+<div class="field has-addons has-addons-centered">
+<div class="control is-expanded">
+<input name="q" class="input" id="id_q" type="search">
+</div>
+<div class="control">
+<button type="submit" class="button is-dark">
+<i class="fas fa-search"></i>
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="banner has-background-success has-text-centered">
+<a href="../register/index.html">
+<div class="text">
+<strong>RoutineHub is a growing community around Siri Shortcuts. Click here to create your account and get started!</strong>
+</div>
+</a>
+</div>
+<section id="content" class="section">
+<div class="container">
+<article class="media shortcut-header">
+<figure class="media-left">
+<p class="image app is-64x64">
+<img src="https://routinehub-assets.s3.amazonaws.com/media/shortcuts/icons/b66f57a864834388a65a7b07328c569a.png">
+</p>
+</figure>
+<div class="media-content">
+<div class="content">
+<div class="titles">
+<h3 class="title is-3">Question Bank Question Counter</h3>
+<h4 class="subtitle is-4">Keep track of practice question progress across all board-prep platforms</h4>
+</div>
+</div>
+</article>
+<hr>
+<div class="columns">
+<div class="column sidebar is-2">
+<div class="actions">
+<a href="../download/15169.html" target="_blank" class="button is-dark is-fullwidth">Get Shortcut</a>
+<a href="1394/report.html" class="button is-danger is-fullwidth">Report</a>
+</div>
+<br>
+<div class="heart has-text-centered" data-id="1394">
+<span class="heart-icon ">
+<i class="fas fa-heart fa-lg"></i>
+</span>
+<span class="heart-count">2</span>
+</div>
+<br>
+<p class="has-text-centered"><a href="../login/index.html" style="text-decoration: underline;">Log in</a> or <a href="../register/index.html" style="text-decoration: underline;">sign up</a> to heart</p>
+<br>
+<p class="is-size-5"><strong>Information</strong></p>
+<div class="information">
+<p>Author:
+<a href="../user/Bingobucketster.html"><strong>@Bingobucketster</strong></a>
+<p>Version: 4.3</p>
+<p>iOS: 13</p>
+<p>Updated: 03/02/20</p>
+<p>Downloads: 2869</p>
+<p>Categories:</p>
+<ul class="fa-ul">
+<li>
+<a href="../category/education.html">
+<span class="fa-li">
+<i class="fas fa-graduation-cap"></i>
+</span>
+Education
+</a>
+</li>
+<li>
+<a href="../category/productivity.html">
+<span class="fa-li">
+<i class="fas fa-paperclip"></i>
+</span>
+Productivity
+</a>
+</li>
+</ul>
+</div>
+<hr>
+<p class="is-size-5"><strong>Required Apps</strong></p>
+<div class="apps columns is-mobile is-multiline">
+<div class="column none"><em>None</em></div>
+</div>
+<hr>
+<div class="qr-code has-text-centered is-hidden-mobile">
+<img src="https://api.qrserver.com/v1/create-qr-code/?data=https://routinehub.co/download/15169" />
+<p class="is-size-7"><em>Scan using your iPhone's camera to download</em></p>
+</div>
+</div>
+<div class="column is-10 details">
+<div class="description">
+<h4 class="title is-4">Description</h4>
+<div class="content">
+<p><a href="3368.html"><img alt="Here" src="https://i.imgur.com/5lqMrw2.jpg"></a>
+</p><p></p> Click the button above to see the deluxe version of this shortcut. It has a more pleasing interface and supports sounds to reward your progress! Get both to add quick entry with this shortcut and a beautiful interface with the other. <p></p>
+<hr>
+<h1> The Story</h1>
+<p>As a medical student preparing for board exams, practice questions are essential to building stamina and familiarizing oneself to the testing environment before the big day. Many test-prep programs provide a tally of progress, but I found it cumbersome to have to go to the right place on their website every time I was curious about my progress, and then have to repeat that process for each QBank.</p>
+<p>Enter Question Bank Question Counter! Originally made to prepare for my COMLEX exam, this shortcut can be used for any test preparation and gives you a 1-tap access to your running tally, tells you how many questions you have left before you reach your goal, gives you your daily total, and intelligently calculates the daily average needed to reach your goal by a certain date. Updating info is easy, and convenient menu options allow for error corrections in case you type in a wrong number by mistake.</p>
+<h1>It’s as easy as 1-2-3!</h1>
+<p>With one tap, you can see your daily summary, a breakdown of your overall progress, and precisely enter in your progress for the day in the qbank of your choice.</p>
+<p><img alt="In app" src="https://i.imgur.com/XXTPOGX.jpg"></p>
+<h1>Record progress from anywhere!</h1>
+<p>It also works with widgets on iOS. Now you can record your questions from anywhere!</p>
+<p><i>To turn on the widget, go to the left of the home screen, scroll all the way down, tap “edit”, then tap the green “+” button next to “shortcuts.”</i></p>
+<p><img alt="Widget" src="https://i.imgur.com/hiT8BL7.jpg"></p>
+<h1>Track your progress overtime!</h1>
+<p>The new “Question Log” feature allows you to record how many questions you did on a certain day, from which QBank you did them, and how well you did. <i>Numbers are for demo purposes, and are not my actual stats</i></p>
+<p><i>Requires “<a href="2145.html">UI Library</a>” by @entee.</i></p>
+<p><img alt="Question Log" src="https://i.imgur.com/8g2wHd0.png"></p>
+<h1>Customize which QBanks you want to use!</h1>
+<p>Now you can choose up to 4 question banks that you wish to record your counts for, making this tool accessible even for students preparing for other exams! QBanks are chosen upon setup and can be changed later through a convenient menu option</p>
+<p><img alt="Custom banks" src="https://i.imgur.com/o8y0qqL.jpg"></p>
+<hr>
+<p><img alt="New to shortcuts" src="https://i.imgur.com/GtD3RkE.jpg"></p>
+<p><a href="https://www.mikebeas.com/updatekit/"><img alt="UpdateKit" src="https://i.imgur.com/3QMzlEV.jpg"></a></p>
+<p><a href="1911.html"><img alt="Mediakit" src="https://i.imgur.com/QqGq3Uu.jpg"></a></p>
+<p><img alt="Made by" src="https://i.imgur.com/pi013nc.jpg"></p>
+</div>
+</div>
+<hr>
+<div class="latest-release">
+<h4 class="title is-4">Latest Release Notes</h4>
+<p><strong>4.3 - March 2, 2020, 2:46 p.m.</strong></p>
+<p>Brought the shortcut to iOS 13. Don’t update if you are running a lower firmware! Now you can disable the calculation of the overall average. This will enable faster startups. This version, as opposed to the Deluxe version, is perfect for updating qcounts from the widgets.</p>
+<br>
+<a href="1394/changelog.html" class="button is-dark">Past versions</a>
+</div>
+<hr>
+<div class="feedback">
+<h4 class="title is-4">Feedback</h4>
+<p><a href="../login/index.html" style="text-decoration: underline;">Log in</a> or <a href="../register/index.html" style="text-decoration: underline;">sign up</a> to leave feedback.</p>
+<br>
+<article class="media" data-feedback-id="2247">
+<div class="media-content">
+<a href="../user/dastefster.html"><strong>@dastefster</strong></a>
+<div class="content">
+<span class="body">Is there a relatively quick way to edit the available Q banks (i.e., their names) before setting goals?
+I’m a dental student studying for boards &amp; want to take advantage of this! However, i’m not using any of the included Q banks.
+I tried to manually edit them myself, but quickly realized scrolling through the actions, on my iPhone, trying to find every instance of each Q-bank title was not a good idea lol</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 3 months ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="2247">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="2249">
+<div class="media-content">
+<a href="../user/Bingobucketster.html"><strong>@Bingobucketster</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">Yeah, I realized my classmates wanted to do that, too, but it is as you said: you’d have to go through and alter every instance of that name. It’s a headache and I didn’t want to mess with it. If it were the same number of qbanks, I could fiddle around with variables (still have to go through all of them, though), but the different numbers would affect the menus and there’s no way around that. If you’re up to the task, go for it, but I don’t have the time. </span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 3 months ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="2249">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="media" data-feedback-id="2336">
+<div class="media-content">
+<a href="../user/Bingobucketster.html"><strong>@Bingobucketster</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">Think I found a way to alter it. I was dreading renaming how it manages the folders and saving everything, but realized that you (and others who wish to customize the qbanks) really just need the display names altered. It’ll still take time, but I’m gonna try and get an update out soon to address this.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 3 months ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="2336">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="media" data-feedback-id="2341">
+<div class="media-content">
+<a href="../user/Bingobucketster.html"><strong>@Bingobucketster</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">New update is out. Custom qbanks are a go!</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 3 months ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="2341">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="2363">
+<div class="media-content">
+<a href="../user/dastefster.html"><strong>@dastefster</strong></a>
+<div class="content">
+<span class="body">AWESOME! I just installed the new version &amp; am about to set it up.
+Really appreciate you taking the time to remake it! I&#39;ll let you know if I have any helpful feedback after having a chance to mess around with it for a little.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 3 months ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="2363">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="2364">
+<div class="media-content">
+<a href="../user/Bingobucketster.html"><strong>@Bingobucketster</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">For sure! Let me know if it works okay for you!</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 3 months ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="2364">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="2682">
+<div class="media-content">
+<a href="../user/dastefster.html"><strong>@dastefster</strong></a>
+<div class="content">
+<span class="body">So i&#39;ve been using This for about a month now and it&#39;s been super helpful! The updates &amp; new features have been great too. However, every time I install a new version my custom bank names reset to default. Is It possible to have those carryover?</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 2 months ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="2682">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="2686">
+<div class="media-content">
+<a href="../user/Bingobucketster.html"><strong>@Bingobucketster</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">Hey! That makes me so happy! I&#39;ll look into this</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 2 months ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="2686">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="media" data-feedback-id="2700">
+<div class="media-content">
+<a href="../user/Bingobucketster.html"><strong>@Bingobucketster</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">All set! Go ahead and update now. Thanks for the challenge!</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 2 months ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="2700">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="2703">
+<div class="media-content">
+<a href="../user/dastefster.html"><strong>@dastefster</strong></a>
+<div class="content">
+<span class="body">Thank YOU for the update!!</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 2 months ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="2703">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="2706">
+<div class="media-content">
+<a href="../user/Bingobucketster.html"><strong>@Bingobucketster</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">Feels good to know all my hard work is paying off. This just started as a little project for me, but it’s become a monster of a shortcut with lots of features. Feedback is very much appreciated.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 2 months ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="2706">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+ </div>
+</article>
+<article class="media" data-feedback-id="3950">
+<div class="media-content">
+<a href="../user/atow.html"><strong>@atow</strong></a>
+<div class="content">
+<span class="body">@Bingobucketster don&#39;t know if you saw my note, but I updated ActionCuts to fix the bug you were seeing with the extracted action block (it was the space bug). Feedback seems to disappear when you update the version of a shortcut on Routinehub, so there was no way to respond to your previous post.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 9 months, 2 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="3950">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="3951">
+<div class="media-content">
+<a href="../user/Bingobucketster.html"><strong>@Bingobucketster</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">Haha. Well thanks for tracking me down. I had asked you several questions, but then found the answers myself and figured I’d clean up your feedback area for you. So I actually deleted my first comment to clean it all up for you. But thank you for fixing that. I’m really impressed with your shortcut, and especially the different changes view. I don’t have any shortcuts I’m working on right now, but this will make future shortcut development SO much easier. Thanks for all your hard work.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 9 months, 2 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="3951">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="3952">
+<div class="media-content">
+<a href="../user/atow.html"><strong>@atow</strong></a>
+<div class="content">
+<span class="body">Got it! Yes, glad to know that it will help you out. Need to get the word out so more developers can take advantage of these tools!</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 9 months, 2 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="3952">
+<div class="field">
+ <div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="3953">
+<div class="media-content">
+<a href="../user/Bingobucketster.html"><strong>@Bingobucketster</strong></a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">I had JUST gotten merge cuts too, but the UI of your shortcuts is always so nice. </span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 9 months, 2 weeks ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="fO9LLPHaLcBU5xYZYYoaiKKsNKMA0FI1jvWeTd1lpz10PYlqCz1Al4HLF0kGEjfF">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="1394">
+<input type="hidden" id="parent_id" name="parent_id" value="3953">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="advertisement" class="navbar is-fixed-bottom has-background-light" style="height: 80px;">
+<div class="container">
+<div class="rh-ad-container">
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="86f4449476514c26e0af3013-|49"></script><iframe src="https://viewm.moonicorn.network/#%7B%22options%22%3A%7B%22publisherAddr%22%3A%220xD0ca406a411FAA6F00F75a16617af27CbE778343%22%2C%22whitelistedTokens%22%3A%5B%220x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359%22%2C%220x6B175474E89094C44Da98b954EedeAC495271d0F%22%5D%2C%22whitelistedType%22%3A%22legacy_468x60%22%2C%22randomize%22%3Atrue%2C%22targeting%22%3A%5B%7B%22tag%22%3A%22computers%20%26%20electronics%22%2C%22score%22%3A75%7D%2C%7B%22tag%22%3A%22programming%22%2C%22score%22%3A75%7D%2C%7B%22tag%22%3A%22software%22%2C%22score%22%3A25%7D%2C%7B%22tag%22%3A%22web%20apps%20%26%20online%20tools%22%2C%22score%22%3A65%7D%2C%7B%22tag%22%3A%22ios%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22apple%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22mobile%20devices%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22online%20learning%22%2C%22score%22%3A75%7D%5D%2C%22width%22%3A%22468%22%2C%22height%22%3A%2260%22%2C%22minPerImpression%22%3A%220%22%2C%22minTargetingScore%22%3A%220%22%2C%22fallbackUnit%22%3Anull%2C%22marketSlot%22%3A%22QmceseR8Q1RrSGMjJw8SHZHoxXy5RnYnARKE5mzVixQBmx%22%7D%7D" width="468" height="60" scrolling="no" frameborder="0" style="border: 0;" onload="window.addEventListener('message', function(ev) { 
+		if (ev.data.hasOwnProperty('adexHeight') && ('https://viewm.moonicorn.network' === ev.origin)) {
+			for (let f of document.getElementsByTagName('iframe')) {	
+				if (f.contentWindow === ev.source) {
+					f.height = ev.data.adexHeight;
+				}
+			}	
+		}
+	}, false)"></iframe>
+</div>
+</div>
+</section>
+<footer class="footer">
+<div class="container">
+<div class="footer-links">
+<div class="columns has-text-right-desktop has-text-left-touch">
+<div class="column is-6 is-hidden-mobile">
+<div class="content has-text-white-ter has-text-left is-size-7">
+<p>Copyright © 2020 Hardly Software LLC. All rights reserved.</p>
+<p>We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Apple Inc., or any of its subsidiaries or its affiliates. The official Apple website can be found at <a href="https://www.apple.com/" class="has-text-white-ter">https://www.apple.com/</a>. The name “Apple” as well as related names, marks, emblems and images are registered trademarks of Apple Inc.</p>
+<p>The use in this website and/or in related promotional print or video material of trademarked names and images is strictly for editorial and descriptive purposes, and no commercial claim to their use, or suggestion of sponsorship or endorsement, is made by Hardly Software LLC. Those words or terms that the authors and publisher have reason to believe are trademarks are designated as such by the use of initial capitalization, where appropriate. However no attempt has been made to identify or designate all words or terms to which trademark or other proprietary rights may exist. Nothing contained herein is intended to express a judgment on, or affect the validity of legal status of, any word or term as a trademark, service mark, or other proprietary mark.</p>
+</div>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a href="../index.html">Home</a>
+</p>
+<p class="footer-link">
+<a href="../register/index.html">Sign up</a>
+</p>
+<p class="footer-link">
+<a href="../login/index.html">Log in</a>
+</p>
+<p class="footer-link">
+<a href="../blog/index.html">Blog</a>
+</p>
+<p class="footer-link">
+<a href="../changelog.html">Changelog</a>
+</p>
+<p class="footer-link">
+<a href="https://app.usefathom.com/share/pisdlnji/routinehub">Analytics</a>
+</p>
+<p class="footer-link">
+<a href="https://stats.uptimerobot.com/5QODDT518" target="_blank">Status page</a>
+</p>
+<p class="footer-link">
+<a href="../shortcuts/latest/feed/index.html">RSS Feed</a>
+</p>
+<p class="footer-link">
+<a href="../faq/index.html">FAQ</a>
+</p>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a>Links</a>
+</p>
+<p class="footer-link">
+<a href="https://feedback.routinehub.co/" target="_blank">User Feedback</a>
+</p>
+<p class="footer-link">
+<a href="../ads/index.html">Advertising</a>
+</p>
+<p class="footer-link">
+<a href="../membership.html">Membership</a>
+</p>
+<p class="footer-link">
+<a href="https://routinehub.storenvy.com/" target="_blank">Shop</a>
+</p>
+<p class="footer-link">
+<a href="https://twitter.com/routinehub" target="_blank">Twitter</a>
+</p>
+<p class="footer-link">
+<a href="https://discord.gg/2xdeZxY" target="_blank">Discord (Chat)</a>
+</p>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a href="../terms/index.html">Legal</a>
+</p>
+<p class="footer-link">
+<a href="../terms/index.html">Terms of Service</a>
+</p>
+<p class="footer-link">
+<a href="../privacy/index.html">Privacy Policy</a>
+</p>
+<p class="footer-link">
+<a href="../cookies/index.html">Cookie Policy</a>
+</p>
+</div>
+<div class="column is-8 is-hidden-tablet">
+<div class="content has-text-white-ter has-text-left is-size-7">
+<p>Copyright © 2019 Hardly Software LLC. All rights reserved.</p>
+<p>We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Apple Inc., or any of its subsidiaries or its affiliates. The official Apple website can be found at <a href="https://www.apple.com/" class="has-text-white-ter">https://www.apple.com/</a>. The name “Apple” as well as related names, marks, emblems and images are registered trademarks of Apple Inc.</p>
+<p>The use in this website and/or in related promotional print or video material of trademarked names and images is strictly for editorial and descriptive purposes, and no commercial claim to their use, or suggestion of sponsorship or endorsement, is made by Hardly Software LLC. Those words or terms that the authors and publisher have reason to believe are trademarks are designated as such by the use of initial capitalization, where appropriate. However no attempt has been made to identify or designate all words or terms to which trademark or other proprietary rights may exist. Nothing contained herein is intended to express a judgment on, or affect the validity of legal status of, any word or term as a trademark, service mark, or other proprietary mark.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous" type="86f4449476514c26e0af3013-text/javascript"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" type="86f4449476514c26e0af3013-text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js" type="86f4449476514c26e0af3013-text/javascript"></script>
+<script src="https://routinehub-assets.s3.amazonaws.com/static/main/script.21.js" type="86f4449476514c26e0af3013-text/javascript"></script>
+<script src="https://routinehub-assets.s3.amazonaws.com/static/main/vendors/fancybox/jquery.fancybox.min.js" type="86f4449476514c26e0af3013-text/javascript"></script>
+<script type="86f4449476514c26e0af3013-text/javascript">
+		$('[data-fancybox="gallery"]').fancybox({
+			buttons: [
+			    "zoom",
+			    "fullScreen",
+			    "close"
+			],
+			protect: true,
+		});
+	</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="86f4449476514c26e0af3013-|49" defer=""></script></body>
+</html>

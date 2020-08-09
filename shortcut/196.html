@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<html lang="en" class="shortcut">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="Get your nearest hospital or emergency room and get directions fast!">
+<meta property="og:url" content="/shortcut/196" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="RoutineHub - Find Closest ER" />
+<meta property="og:description" content="Get your nearest hospital or emergency room and get directions fast!" />
+<meta property="og:image" content="https://routinehub-assets.s3.amazonaws.com/media/shortcuts/icons/50f1d43b49374ad9bd4fdb9cf0546b35.png" />
+<meta name="twitter:card" content="summary" />
+<title>RoutineHub • Find Closest ER</title>
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;" />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-310x310.png" />
+<link rel="stylesheet" type="text/css" href="https://routinehub-assets.s3.amazonaws.com/static/main/main.22.css" />
+<link rel="stylesheet" type="text/css" href="https://routinehub-assets.s3.amazonaws.com/static/main/vendors/fancybox/jquery.fancybox.min.css" />
+<script type="ef273ddccc5a390478b9920b-text/javascript">
+            (function(f, a, t, h, o, m){
+            a[h]=a[h]||function(){
+            (a[h].q=a[h].q||[]).push(arguments)
+            };
+            o=f.createElement('script'),
+            m=f.getElementsByTagName('script')[0];
+            o.async=1; o.src=t; o.id='fathom-script';
+            m.parentNode.insertBefore(o,m)
+            })(document, window, '//cdn.usefathom.com/tracker.js', 'fathom');
+            fathom('set', 'siteId', 'PISDLNJI');
+            fathom('trackPageview');
+        </script>
+</head>
+<body>
+<article class="message pop-up">
+<div class="message-header">
+<p class="message-title"></p>
+<button class="delete" aria-label="delete"></button>
+</div>
+<div class="message-body"></div>
+</article>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+<div class="container">
+<div class="navbar-brand">
+<a class="navbar-item" href="../index.html">
+<img src="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-32x32.png">
+<p>RoutineHub</p>
+</a>
+<p class="search-button navbar-item is-hidden-desktop"><i class="fas fa-search"></i></p>
+<div class="navbar-burger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+<div class="navbar-menu">
+<div class="navbar-end has-text-right">
+<p class="search-button navbar-item is-hidden-touch"><i class="fas fa-search"></i></p>
+<a href="../faq/index.html" class="navbar-item">About</a>
+<a href="../register/index.html" class="navbar-item">Sign up</a>
+<a href="../login/index.html" class="navbar-item">Log in</a>
+</div>
+</div>
+</div>
+</nav>
+<div class="search hide has-background-white-ter">
+<div class="search-bar">
+<div class="container">
+<form method="get" action="https://routinehub.co/search/">
+<div class="field has-addons has-addons-centered">
+<div class="control is-expanded">
+<input name="q" class="input" id="id_q" type="search">
+</div>
+<div class="control">
+<button type="submit" class="button is-dark">
+<i class="fas fa-search"></i>
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="banner has-background-success has-text-centered">
+<a href="../register/index.html">
+<div class="text">
+<strong>RoutineHub is a growing community around Siri Shortcuts. Click here to create your account and get started!</strong>
+</div>
+</a>
+</div>
+<section id="content" class="section">
+<div class="container">
+<article class="media shortcut-header">
+<figure class="media-left">
+<p class="image app is-64x64">
+<img src="https://routinehub-assets.s3.amazonaws.com/media/shortcuts/icons/50f1d43b49374ad9bd4fdb9cf0546b35.png">
+</p>
+</figure>
+<div class="media-content">
+<div class="content">
+<div class="titles">
+<h3 class="title is-3">Find Closest ER</h3>
+<h4 class="subtitle is-4">Get your nearest hospital or emergency room and get directions fast!</h4>
+</div>
+</div>
+</article>
+<hr>
+<div class="columns">
+<div class="column sidebar is-2">
+<div class="actions">
+<a href="../download/2436.html" target="_blank" class="button is-dark is-fullwidth">Get Shortcut</a>
+<a href="196/report.html" class="button is-danger is-fullwidth">Report</a>
+</div>
+<br>
+<div class="heart has-text-centered" data-id="196">
+<span class="heart-icon ">
+<i class="fas fa-heart fa-lg"></i>
+</span>
+<span class="heart-count">1</span>
+</div>
+<br>
+<p class="has-text-centered"><a href="../login/index.html" style="text-decoration: underline;">Log in</a> or <a href="../register/index.html" style="text-decoration: underline;">sign up</a> to heart</p>
+<br>
+<p class="is-size-5"><strong>Information</strong></p>
+<div class="information">
+<p>Author:
+<a href="../user/medicalshortcuts.html"><strong>@medicalshortcuts</strong></a>
+<p>Version: 1.5</p>
+<p>iOS: 12</p>
+<p>Updated: 11/21/18</p>
+<p>Downloads: 973</p>
+<p>Categories:</p>
+<ul class="fa-ul">
+<li>
+<a href="../category/medical.html">
+<span class="fa-li">
+<i class="fas fa-briefcase-medical"></i>
+</span>
+Medical
+</a>
+</li>
+<li>
+<a href="../category/navigation.html">
+<span class="fa-li">
+<i class="fas fa-map-marker-alt"></i>
+</span>
+Navigation
+</a>
+</li>
+</ul>
+</div>
+<hr>
+<p class="is-size-5"><strong>Required Apps</strong></p>
+<div class="apps columns is-mobile is-multiline">
+<div class="column is-3-mobile is-4-tablet">
+<a href="https://itunes.apple.com/us/app/id915249334" target="_blank">
+<figure class="image app is-square">
+<img src="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/c8/06/8f/c8068fbe-ee31-a1c9-5767-df42f1707cb1/source/60x60bb.jpg" alt="Shortcuts" title="Shortcuts">
+</figure>
+</a>
+</div>
+<div class="column is-3-mobile is-4-tablet">
+<a href="https://itunes.apple.com/us/app/id915056765" target="_blank">
+<figure class="image app is-square">
+<img src="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/9f/b9/33/9fb9333f-bcf9-9a38-41cb-b36c1b062266/source/60x60bb.jpg" alt="Maps" title="Maps">
+</figure>
+</a>
+</div>
+<div class="column is-3-mobile is-4-tablet">
+<a href="https://itunes.apple.com/us/app/id368677368" target="_blank">
+<figure class="image app is-square">
+<img src="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/60/a6/d3/60a6d3c6-5101-b0ba-87cc-3d9412b1b86b/source/60x60bb.jpg" alt="Uber" title="Uber">
+</figure>
+</a>
+</div>
+<div class="column is-3-mobile is-4-tablet">
+<a href="https://itunes.apple.com/us/app/id529379082" target="_blank">
+<figure class="image app is-square">
+<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/3a/4d/9b/3a4d9bb0-f9d4-9f78-1352-ed4b5787001b/source/60x60bb.jpg" alt="Lyft" title="Lyft">
+</figure>
+</a>
+</div>
+<div class="column is-3-mobile is-4-tablet">
+<a href="https://itunes.apple.com/us/app/id657777015" target="_blank">
+<figure class="image app is-square">
+<img src="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/f4/d8/04/f4d80471-254d-2386-aafc-bdab8417842e/source/60x60bb.jpg" alt="Via: Low-Cost Ride-Sharing" title="Via: Low-Cost Ride-Sharing">
+</figure>
+</a>
+</div>
+<div class="column is-3-mobile is-4-tablet">
+<a href="https://itunes.apple.com/us/app/id299226386" target="_blank">
+<figure class="image app is-square">
+<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/63/a6/2c/63a62cb8-373b-9d42-954d-1f29543a19eb/source/60x60bb.jpg" alt="Curb - The Taxi App" title="Curb - The Taxi App">
+</figure>
+</a>
+</div>
+</div>
+<hr>
+<div class="qr-code has-text-centered is-hidden-mobile">
+<img src="https://api.qrserver.com/v1/create-qr-code/?data=https://routinehub.co/download/2436" />
+<p class="is-size-7"><em>Scan using your iPhone's camera to download</em></p>
+</div>
+</div>
+<div class="column is-10 details">
+<div class="description">
+<h4 class="title is-4">Description</h4>
+<div class="content">
+<div><h2>Find Closest Emergency Room <br><img src="https://ws3.sinaimg.cn/large/006tNbRwly1fw9jqiv6opj304m094aar.jpg"></h2></div>
+<h2>As seen in...</h2>
+<p><b><strong><a href="https://lifehacker.com/this-ios-shortcut-helps-you-find-and-get-to-the-nearest-1830224532">Lifehacker!</a></strong> <br>
+<strong><a href="https://mentalfloss.com/article/562813/iphone-shortcut-emergency-department">Mental Floss!</a></strong></b><br></p><hr><p></p>
+<p>This shortcut was developed by an EMT. As a medical professional I know that sometimes getting to a hospital is a life or death decision and one should use the 911 system while other times, it may not be necessary to go as quickly. Emergency Rooms and the 9-1-1 Emergency Medical Services system is all too often over taxed. As a result, the public is advised to use 9-1-1 only in <i>true emergencies</i> or in situations where you cannot get yourself to a hospital. Other times, it is encouraged that you have a friend drive you, or to go yourself if the injury or illness is not so major. It is sometimes joked that an "Ubulance" will serve you better (and with a much smaller bill) than an ambulance. Obviously, understand the limitations of non 9-1-1 venues, and use common sense to ensure that you make this journey safely. If you have any doubts, call 9-1-1 immediately. </p>
+<p>As a result of this, I created a Shortcut that aims to help you get to a hospital in whatever manner you need to. This app will determine your current location and search for Emergency Rooms that are local to you and then get you directions there by Walking, Transit, Driving, Uber (Ubulance!), Lyft, Curb, Via and in a true emergency, you can also call 9-1-1 on your iPhone directly from this Shortcut. </p>
+<p><b>Install</b> </p>
+<ol>
+<li>You must have previously downloaded the <a href="https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8">Apple's Shortcuts App</a> and be running <b>iOS 12</b> on your device. You must also be running Shortcuts version 2.1+. </li>
+<li>This Shortcut uses relies on UpdateKit to get you updates! I recommend that you download UpdateKit now: <a href="http://www.mikebeas.com/updatekit/"><b>UpdateKit</b></a> allows this shortcut to be updated when future releases are published. </li>
+<li>Download the Shortcut!</li>
+<li>Answer the prompts and run a test when you are fully healthy!</li>
+<li>For support with Uber, Via, Curb, or Lyft you will also need those respective apps installed prior to downloading the shortcut. </li>
+</ol>
+<p><b>Limitations</b> </p>
+<p><i>It is important for me to be clear and up front about this Shortcut's limitations. </i></p><ul><li>This shortcut was designed to be used in a city. As a result the term "EMERGENCY ROOM" is the default search term sent to the Maps app. In some rural locations that the shortcut has been tested this may not show results and it instead must be run with items like "HOSPITAL" or "MEDICAL CENTER". When installed, this Shortcut will ask you to enter your keyword choice. Ensure that you test it out once inputted and change it if needed depending on your location. </li>
+<li>This shortcut is also limited to users in the United States as outside of the US has different untested addresses and a different emergency phone number. </li>
+<li>You must have cell service or WiFi access to get your location. If you don't, this app won't work.!</li>
+<li>This Shortcut cannot talk to the 9-1-1 system. As a result, if you decide to get an Ambulance your current location will not be passed onto 9-1-1 and you MUST give accurate information when asked</li>
+<li>Locations that are used are based off of Apple Maps, and as you may have personally experienced, Apple Maps is imperfect. However, the same is true about Google Maps, Waze, and other mapping products that could have been used. As a result, I decided to keep it "in house" and use Apple Maps. When you select your destination, <b>make sure that it's actually the right place!</b> During testing I noted that the keyword "Hospital" sometimes delivered veterinary hospitals... If you go there... don't expect to get the medical care that you're looking for!</li>
+<li>Overall this shortcut requires common sense. This is a <b>tool</b> but nothing more. Like any other tool <b>it may fail</b> and therefore should not be relied on. luckily, calling 9-1-1 from any telephone. Don't hesitate to do so if you need to</li>
+<li><b>November 20, 2018</b> Support was added for Lyft, Via, and Curb. Similar to Uber, you MUST have the app installed for this functionality to work. Additionally, if you download the app after downloading the Shortcut, you may need to re-download the shortcut as the linking to the app may break.</li> </ul><p></p>
+<p><b>DISCLAIMER:</b> This shortcut is in no way meant to replace the 9-1-1 system, or any level of medical care. If you believe yourself or someone else to be in danger immediately call 9-1-1 and follow the directions provided by the dispatcher and Emergency Medical Services that are dispatched to you. If you begin on your journey to the hospital and feel worse, do not put yourself in more danger and instead use the 9-1-1 system. By using and downloading this shortcut you understand and agree that this shortcut is not a replacement in any way to the 9-1-1 system and that the information it provides is imperfect and should ALWAYS be checked prior to relying on it. Mapping data, provided by Apple, may not be correct and should ALWAYS be verified. By using this shortcut you understand that you cannot hold its creator, designer, or any affiliates responsible or liable for any harm that may come to you or others through misinformation, failure, or any other issue that arrises from using this shortcut</p>
+</div>
+</div>
+<hr>
+<div class="latest-release">
+<h4 class="title is-4">Latest Release Notes</h4>
+<p><strong>1.5 - Nov. 21, 2018, 2:59 a.m.</strong></p>
+<p>- Simplified notifications <br>- Removed unnecessary vibration that slowed the shortcut slightly. <br>- Added support for Lyft, Via and Curb in addition to Uber in an easy to use selection menu! <br></p>
+<br>
+<a href="196/changelog.html" class="button is-dark">Past versions</a>
+</div>
+<hr>
+<div class="feedback">
+<h4 class="title is-4">Feedback</h4>
+<p><a href="../login/index.html" style="text-decoration: underline;">Log in</a> or <a href="../register/index.html" style="text-decoration: underline;">sign up</a> to leave feedback.</p>
+<br>
+<p>No feedback yet</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="advertisement" class="navbar is-fixed-bottom has-background-light" style="height: 80px;">
+<div class="container">
+<div class="rh-ad-container">
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="ef273ddccc5a390478b9920b-|49"></script><iframe src="https://viewm.moonicorn.network/#%7B%22options%22%3A%7B%22publisherAddr%22%3A%220xD0ca406a411FAA6F00F75a16617af27CbE778343%22%2C%22whitelistedTokens%22%3A%5B%220x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359%22%2C%220x6B175474E89094C44Da98b954EedeAC495271d0F%22%5D%2C%22whitelistedType%22%3A%22legacy_468x60%22%2C%22randomize%22%3Atrue%2C%22targeting%22%3A%5B%7B%22tag%22%3A%22computers%20%26%20electronics%22%2C%22score%22%3A75%7D%2C%7B%22tag%22%3A%22programming%22%2C%22score%22%3A75%7D%2C%7B%22tag%22%3A%22software%22%2C%22score%22%3A25%7D%2C%7B%22tag%22%3A%22web%20apps%20%26%20online%20tools%22%2C%22score%22%3A65%7D%2C%7B%22tag%22%3A%22ios%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22apple%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22mobile%20devices%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22online%20learning%22%2C%22score%22%3A75%7D%5D%2C%22width%22%3A%22468%22%2C%22height%22%3A%2260%22%2C%22minPerImpression%22%3A%220%22%2C%22minTargetingScore%22%3A%220%22%2C%22fallbackUnit%22%3Anull%2C%22marketSlot%22%3A%22QmceseR8Q1RrSGMjJw8SHZHoxXy5RnYnARKE5mzVixQBmx%22%7D%7D" width="468" height="60" scrolling="no" frameborder="0" style="border: 0;" onload="window.addEventListener('message', function(ev) { 
+		if (ev.data.hasOwnProperty('adexHeight') && ('https://viewm.moonicorn.network' === ev.origin)) {
+			for (let f of document.getElementsByTagName('iframe')) {	
+				if (f.contentWindow === ev.source) {
+					f.height = ev.data.adexHeight;
+				}
+			}	
+		}
+	}, false)"></iframe>
+</div>
+</div>
+</section>
+<footer class="footer">
+<div class="container">
+<div class="footer-links">
+<div class="columns has-text-right-desktop has-text-left-touch">
+<div class="column is-6 is-hidden-mobile">
+<div class="content has-text-white-ter has-text-left is-size-7">
+<p>Copyright © 2020 Hardly Software LLC. All rights reserved.</p>
+<p>We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Apple Inc., or any of its subsidiaries or its affiliates. The official Apple website can be found at <a href="https://www.apple.com/" class="has-text-white-ter">https://www.apple.com/</a>. The name “Apple” as well as related names, marks, emblems and images are registered trademarks of Apple Inc.</p>
+<p>The use in this website and/or in related promotional print or video material of trademarked names and images is strictly for editorial and descriptive purposes, and no commercial claim to their use, or suggestion of sponsorship or endorsement, is made by Hardly Software LLC. Those words or terms that the authors and publisher have reason to believe are trademarks are designated as such by the use of initial capitalization, where appropriate. However no attempt has been made to identify or designate all words or terms to which trademark or other proprietary rights may exist. Nothing contained herein is intended to express a judgment on, or affect the validity of legal status of, any word or term as a trademark, service mark, or other proprietary mark.</p>
+</div>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a href="../index.html">Home</a>
+</p>
+<p class="footer-link">
+<a href="../register/index.html">Sign up</a>
+</p>
+<p class="footer-link">
+<a href="../login/index.html">Log in</a>
+</p>
+<p class="footer-link">
+<a href="../blog/index.html">Blog</a>
+</p>
+<p class="footer-link">
+<a href="../changelog.html">Changelog</a>
+</p>
+<p class="footer-link">
+<a href="https://app.usefathom.com/share/pisdlnji/routinehub">Analytics</a>
+</p>
+<p class="footer-link">
+<a href="https://stats.uptimerobot.com/5QODDT518" target="_blank">Status page</a>
+</p>
+<p class="footer-link">
+<a href="../shortcuts/latest/feed/index.html">RSS Feed</a>
+</p>
+<p class="footer-link">
+<a href="../faq/index.html">FAQ</a>
+</p>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a>Links</a>
+</p>
+<p class="footer-link">
+<a href="https://feedback.routinehub.co/" target="_blank">User Feedback</a>
+</p>
+<p class="footer-link">
+<a href="../ads/index.html">Advertising</a>
+</p>
+<p class="footer-link">
+<a href="../membership.html">Membership</a>
+</p>
+<p class="footer-link">
+<a href="https://routinehub.storenvy.com/" target="_blank">Shop</a>
+</p>
+<p class="footer-link">
+<a href="https://twitter.com/routinehub" target="_blank">Twitter</a>
+</p>
+<p class="footer-link">
+<a href="https://discord.gg/2xdeZxY" target="_blank">Discord (Chat)</a>
+</p>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a href="../terms/index.html">Legal</a>
+</p>
+<p class="footer-link">
+<a href="../terms/index.html">Terms of Service</a>
+</p>
+<p class="footer-link">
+<a href="../privacy/index.html">Privacy Policy</a>
+</p>
+<p class="footer-link">
+<a href="../cookies/index.html">Cookie Policy</a>
+</p>
+</div>
+<div class="column is-8 is-hidden-tablet">
+ <div class="content has-text-white-ter has-text-left is-size-7">
+<p>Copyright © 2019 Hardly Software LLC. All rights reserved.</p>
+<p>We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Apple Inc., or any of its subsidiaries or its affiliates. The official Apple website can be found at <a href="https://www.apple.com/" class="has-text-white-ter">https://www.apple.com/</a>. The name “Apple” as well as related names, marks, emblems and images are registered trademarks of Apple Inc.</p>
+<p>The use in this website and/or in related promotional print or video material of trademarked names and images is strictly for editorial and descriptive purposes, and no commercial claim to their use, or suggestion of sponsorship or endorsement, is made by Hardly Software LLC. Those words or terms that the authors and publisher have reason to believe are trademarks are designated as such by the use of initial capitalization, where appropriate. However no attempt has been made to identify or designate all words or terms to which trademark or other proprietary rights may exist. Nothing contained herein is intended to express a judgment on, or affect the validity of legal status of, any word or term as a trademark, service mark, or other proprietary mark.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous" type="ef273ddccc5a390478b9920b-text/javascript"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" type="ef273ddccc5a390478b9920b-text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js" type="ef273ddccc5a390478b9920b-text/javascript"></script>
+<script src="https://routinehub-assets.s3.amazonaws.com/static/main/script.21.js" type="ef273ddccc5a390478b9920b-text/javascript"></script>
+<script src="https://routinehub-assets.s3.amazonaws.com/static/main/vendors/fancybox/jquery.fancybox.min.js" type="ef273ddccc5a390478b9920b-text/javascript"></script>
+<script type="ef273ddccc5a390478b9920b-text/javascript">
+		$('[data-fancybox="gallery"]').fancybox({
+			buttons: [
+			    "zoom",
+			    "fullScreen",
+			    "close"
+			],
+			protect: true,
+		});
+	</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="ef273ddccc5a390478b9920b-|49" defer=""></script></body>
+</html>

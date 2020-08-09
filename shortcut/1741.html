@@ -1,0 +1,582 @@
+
+<!DOCTYPE html>
+<html lang="en" class="shortcut">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="Automated &amp; flexible, modular journalling system">
+<meta property="og:url" content="/shortcut/1741" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="RoutineHub - Snapshot Journal" />
+<meta property="og:description" content="Automated &amp; flexible, modular journalling system" />
+<meta property="og:image" content="https://routinehub-assets.s3.amazonaws.com/media/shortcuts/icons/1c0e41ac8e6d4759a793a607445b353f.png" />
+<meta name="twitter:card" content="summary" />
+<title>RoutineHub • Snapshot Journal</title>
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://routinehub-assets.s3.amazonaws.com/static/icon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;" />
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="https://routinehub-assets.s3.amazonaws.com/static/icon/mstile-310x310.png" />
+<link rel="stylesheet" type="text/css" href="https://routinehub-assets.s3.amazonaws.com/static/main/main.22.css" />
+<link rel="stylesheet" type="text/css" href="https://routinehub-assets.s3.amazonaws.com/static/main/vendors/fancybox/jquery.fancybox.min.css" />
+<script type="0214bb0869fc0e5a861c1148-text/javascript">
+            (function(f, a, t, h, o, m){
+            a[h]=a[h]||function(){
+            (a[h].q=a[h].q||[]).push(arguments)
+            };
+            o=f.createElement('script'),
+            m=f.getElementsByTagName('script')[0];
+            o.async=1; o.src=t; o.id='fathom-script';
+            m.parentNode.insertBefore(o,m)
+            })(document, window, '//cdn.usefathom.com/tracker.js', 'fathom');
+            fathom('set', 'siteId', 'PISDLNJI');
+            fathom('trackPageview');
+        </script>
+</head>
+<body>
+<article class="message pop-up">
+<div class="message-header">
+<p class="message-title"></p>
+<button class="delete" aria-label="delete"></button>
+</div>
+<div class="message-body"></div>
+</article>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+<div class="container">
+<div class="navbar-brand">
+<a class="navbar-item" href="../index.html">
+<img src="https://routinehub-assets.s3.amazonaws.com/static/icon/favicon-32x32.png">
+<p>RoutineHub</p>
+</a>
+<p class="search-button navbar-item is-hidden-desktop"><i class="fas fa-search"></i></p>
+<div class="navbar-burger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+<div class="navbar-menu">
+<div class="navbar-end has-text-right">
+<p class="search-button navbar-item is-hidden-touch"><i class="fas fa-search"></i></p>
+<a href="../faq/index.html" class="navbar-item">About</a>
+<a href="../register/index.html" class="navbar-item">Sign up</a>
+<a href="../login/index.html" class="navbar-item">Log in</a>
+</div>
+</div>
+</div>
+</nav>
+<div class="search hide has-background-white-ter">
+<div class="search-bar">
+<div class="container">
+<form method="get" action="https://routinehub.co/search/">
+<div class="field has-addons has-addons-centered">
+<div class="control is-expanded">
+<input name="q" class="input" id="id_q" type="search">
+</div>
+<div class="control">
+<button type="submit" class="button is-dark">
+<i class="fas fa-search"></i>
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="banner has-background-success has-text-centered">
+<a href="../register/index.html">
+<div class="text">
+<strong>RoutineHub is a growing community around Siri Shortcuts. Click here to create your account and get started!</strong>
+</div>
+</a>
+</div>
+<section id="content" class="section">
+<div class="container">
+<article class="media shortcut-header">
+<figure class="media-left">
+<p class="image app is-64x64">
+<img src="https://routinehub-assets.s3.amazonaws.com/media/shortcuts/icons/1c0e41ac8e6d4759a793a607445b353f.png">
+</p>
+</figure>
+<div class="media-content">
+<div class="content">
+<div class="titles">
+<h3 class="title is-3">Snapshot Journal</h3>
+<h4 class="subtitle is-4">Automated &amp; flexible, modular journalling system</h4>
+</div>
+</div>
+</article>
+<hr>
+<div class="columns">
+<div class="column sidebar is-2">
+<div class="actions">
+<a href="../download/4997.html" target="_blank" class="button is-dark is-fullwidth">Get Shortcut</a>
+<a href="1741/report.html" class="button is-danger is-fullwidth">Report</a>
+</div>
+<br>
+<div class="heart has-text-centered" data-id="1741">
+<span class="heart-icon ">
+<i class="fas fa-heart fa-lg"></i>
+</span>
+<span class="heart-count">9</span>
+</div>
+<br>
+<p class="has-text-centered"><a href="../login/index.html" style="text-decoration: underline;">Log in</a> or <a href="../register/index.html" style="text-decoration: underline;">sign up</a> to heart</p>
+<br>
+<p class="is-size-5"><strong>Information</strong></p>
+<div class="information">
+<p>Author:
+<a href="../user/mralexhay.html"><strong>@mralexhay</strong></a>
+<a href="../membership.html">
+<span class="tag is-primary">Member</span>
+</a>
+<p>Version: 1.03</p>
+<p>iOS: 12</p>
+<p>Updated: 01/27/19</p>
+<p>Downloads: 1933</p>
+<p>Categories:</p>
+<ul class="fa-ul">
+<li>
+<a href="../category/lifestyle.html">
+<span class="fa-li">
+<i class="fas fa-leaf"></i>
+</span>
+Lifestyle
+</a>
+</li>
+<li>
+<a href="../category/utilities.html">
+<span class="fa-li">
+<i class="fas fa-calculator"></i>
+</span>
+Utilities
+ </a>
+</li>
+</ul>
+</div>
+<hr>
+<p class="is-size-5"><strong>Required Apps</strong></p>
+<div class="apps columns is-mobile is-multiline">
+<div class="column none"><em>None</em></div>
+</div>
+<hr>
+<div class="qr-code has-text-centered is-hidden-mobile">
+<img src="https://api.qrserver.com/v1/create-qr-code/?data=https://routinehub.co/download/4997" />
+<p class="is-size-7"><em>Scan using your iPhone's camera to download</em></p>
+</div>
+</div>
+<div class="column is-10 details">
+<div class="description">
+<h4 class="title is-4">Description</h4>
+<div class="content">
+<p><strong>Snapshot Journal</strong> is an automated, flexible journaling workflow powered by <a href="https://support.apple.com/en-gb/guide/shortcuts/shortcuts-at-a-glance-apdf22b0444c/ios">Shortcuts</a>.</p>
+<hr>
+<h3>USAGE</h3>
+<p><strong>Snapshot Journal</strong> allows the user to:</p>
+<ul>
+<li>
+<p>Choose from a growing list of <strong>data modules</strong> which capture a whole host of information - from <em>music</em> listened to, the <em>weather</em>, their current <em>location</em>, <em>step count</em> or even customised <em>question prompts</em>. </p>
+</li>
+<li>
+<p>This information is formatted beautifully and can then be saved to a destination of their choice by selecting an <strong>output module</strong> (or more than one). For example: <em>Day One, Bear</em> or <em>Dropbox</em>.</p>
+</li>
+</ul>
+<hr>
+<h3>EXAMPLE OUTPUT</h3>
+<ul>
+<li><a href="https://imgur.com/a/kN91O1w">Bear</a></li>
+<li><a href="https://i.imgur.com/Di6vqbj.jpg">Day One</a></li>
+</ul>
+<hr>
+<h3>GETTING STARTED</h3>
+<ul>
+<li>
+<p>Install the <strong>Snapshot Journal</strong> shortcut from this page</p>
+</li>
+<li>
+<p>Install the <a href="1742.html"><strong>SJ-Preferences</strong></a> shortcut</p>
+</li>
+<li>
+<p>Choose a <strong>data module</strong> shortcut from the list below - this is the data that will be gathered (or install several - I recommend trying one or two first of all to get to grips with how it works)</p>
+</li>
+<li>
+<p>Choose an <strong>output module</strong> shortcut from the list below - this is where the data will be output (you can install several and output to multiple locations simultaneously but it isn’t recommended)</p>
+</li>
+<li>
+<p>Once you have installed the shortcuts, run <strong>SJ-Preferences</strong></p>
+</li>
+<li>
+<p>Select <strong>Choose Active Modules</strong> to select which of installed module shortcuts you wish to activate. You will need to do this each time you downloaded or create a new module</p>
+</li>
+<li>
+<p>You can now run <strong>Snapshot Journal</strong></p>
+</li>
+<li>
+<p>Download more <strong>data modules</strong> or look at how to build your own using these <strong>templates</strong>. Please tag them #SnapshotJournal on here and post them on the <a href="https://www.reddit.com/r/SnapshotJournal/">subreddit</a> Enjoy!</p>
+</li>
+</ul>
+<hr>
+<h3>DOWNLOADS</h3>
+<p><strong>Snapshot Journal</strong></p>
+<ul>
+<li>This is the main engine that gathers information using <strong>data modules</strong>, formats it and then passes it to be saved with the <strong>output module</strong> of choice.</li>
+</ul>
+<p><a href="1742.html"><strong>SJ-Preferences</strong></a></p>
+<ul>
+<li>This is required to run Snapshot Journal -
+based on <a href="313.html">Preferences</a> by <a href="../user/supermamon.html">supermamon</a></li>
+</ul>
+<h3>Data Modules</h3>
+<h4>User Prompted Modules</h4>
+<p><a href="1745.html"><strong>Questions</strong></a></p>
+<ul>
+<li>User is prompted to answer a series of customisable questions</li>
+</ul>
+<p><a href="1746.html"><strong>Quick Thoughts</strong></a></p>
+<ul>
+<li>Add thoughts in bullet points</li>
+</ul>
+<p><a href="1805.html"><strong>Dictate</strong></a></p>
+<ul>
+<li>Dictate your thoughts into your journal</li>
+</ul>
+<p><a href="1747.html"><strong>Mood</strong></a></p>
+<ul>
+<li>User is prompted to respond to a series of customisable questions with a rating out of 5.</li>
+</ul>
+<p><a href="1757.html"><strong>Food &amp; Drink</strong></a></p>
+<ul>
+<li>Prompts entry of meals eaten. Automatically pulls calories, caffeine and water consumption from Health</li>
+</ul>
+<p><a href="1759.html"><strong>Attach Photo</strong></a></p>
+<ul>
+<li>User is prompted to add a photo to the journal entry</li>
+</ul>
+<p><a href="1958.html"><strong>People</strong></a></p>
+<ul>
+<li>User is prompted to select contacts to add to Bear tags for easy organisation</li>
+</ul>
+<hr>
+<h4>Automatic Modules</h4>
+<p><a href="1748.html"><strong>Location</strong></a></p>
+<ul>
+<li>Displays user's location when posting</li>
+</ul>
+<p><a href="1750.html"><strong>Weather</strong></a></p>
+<ul>
+<li>Displays current weather</li>
+</ul>
+<p><a href="1749.html"><strong>Music</strong></a></p>
+<ul>
+<li>Displays top 10 played songs of the day (from iTunes library)</li>
+</ul>
+<p><a href="1751.html"><strong>Sleep</strong></a></p>
+<ul>
+<li>Displays sleep hours logged in Health</li>
+</ul>
+<p><a href="1752.html"><strong>Weight</strong></a></p>
+<ul>
+<li>Displays average weight, fat mass and BMI from the last 7 days</li>
+</ul>
+<p><a href="1753.html"><strong>Steps</strong></a></p>
+<ul>
+<li>Displays step count and distance traveled</li>
+</ul>
+<p><a href="1754.html"><strong>News</strong></a></p>
+<ul>
+<li>Displays top 3 BBC News headlines (or any other RSS headlines)</li>
+</ul>
+<p><a href="1755.html"><strong>Reminders</strong></a></p>
+<ul>
+<li>Displays any reminders due today</li>
+</ul>
+<p><a href="1756.html"><strong>Calendars</strong></a></p>
+<ul>
+<li>Displays any calendar events from today </li>
+</ul>
+<p><strong>HeartRate</strong> (coming soon)</p>
+<ul>
+<li>Displays user's heart rate and resting heart rate and indicates if higher or lower than yesterday</li>
+</ul>
+<p><a href="1770.html"><strong>Mindfulness</strong></a></p>
+<ul>
+<li>Displays meditation data from Health app</li>
+</ul>
+<p><a href="1796.html"><strong>Countdown</strong></a></p>
+<ul>
+<li>Displays "days since" or "days until" a specific date</li>
+</ul>
+<p><a href="1790.html"><strong>Goals</strong></a></p>
+<ul>
+<li>Manual goal lists to check off daily/on weekends plus automatic goal tracking from Health</li>
+</ul>
+<p><a href="1968.html"><strong>GoodReads</strong></a></p>
+<ul>
+<li>Displays books on your 'currently reading' shelf</li>
+</ul>
+<p><a href="1971.html"><strong>Foursquare</strong></a></p>
+<ul>
+<li>Displays today's Swarm/Foursquare checkins</li>
+</ul>
+<hr>
+<h4>Third Party APIs</h4>
+<p><a href="1762.html"><strong>YNAB Accounts</strong></a></p>
+<ul>
+<li>Displays all account with totals and net worth</li>
+</ul>
+<p><a href="1761.html"><strong>YNAB Transactions</strong></a></p>
+<ul>
+<li>Displays all transactions from today including total spend</li>
+</ul>
+<p><a href="1966.html"><strong>Pinboard</strong></a></p>
+<ul>
+<li>Displays links saved to Pinboard today</li>
+</ul>
+<p><strong>RescueTime</strong> (coming soon)</p>
+<ul>
+<li>Displays your tracked time</li>
+</ul>
+<hr>
+<h4>Output Modules</h4>
+<p><a href="1743.html"><strong>Bear</strong></a></p>
+<ul>
+<li>Saves markdown to the <a href="https://bear.app">Bear</a> app. Generates tags based on location and date. See <a href="https://imgur.com/6ibZ77q">example tags</a>.</li>
+</ul>
+<p><a href="1744.html"><strong>Day One</strong></a></p>
+<ul>
+<li>Saves markdown to the <a href="http://dayoneapp.com">Day One</a> app.</li>
+</ul>
+<p><a href="1816.html"><strong>PDF</strong></a></p>
+<ul>
+<li>Saves a rich text PDF to either Dropbox, iCloud or opens the Share Sheet</li>
+</ul>
+<p><a href="1817.html"><strong>Text</strong></a></p>
+<ul>
+<li>Saves a markdown text file to either Dropbox, iCloud or opens the Share Sheet</li>
+</ul>
+<p><a href="1765.html"><strong>Notes</strong></a></p>
+<ul>
+<li>Saves either markdown or rich text to Apple Notes</li>
+</ul>
+<hr>
+<h3>SCHEDULING SNAPSHOT JOURNAL</h3>
+<p>I recommend running Snapshot Journal just before you go to bed so it's got a full days worth of data. </p>
+<p>Some options for running it regularly (<em>both of these methods still require tapping on a notification</em>):</p>
+<ul>
+<li>
+<p>Press the three dots on the <strong>Snapshot Journal</strong> shortcut. Trigger Siri and say "<em>Remind me about this every day at 11 o'clock</em>"</p>
+</li>
+<li>
+<p>Add a <a href="https://contrast.co/launch-center-pro/">Launch Centre Pro</a> action to run at a certain time or location.</p>
+</li>
+</ul>
+<hr>
+<h3>FAQ</h3>
+<ul>
+<li>It's slow!</li>
+</ul>
+<p>The speed is directly related to how many modules you're running and what they're doing. If they're calling external APIs for collating a large amount of data, it may take some time. Just leave it running for a few seconds and it should process everything it needs.</p>
+<ul>
+<li>Can I install all the data modules all at once?</li>
+</ul>
+<p>I may add this as an option but for the first release I want to be able to keep a track of what bugs crop up a bit more easily</p>
+<ul>
+<li>Can I change the order my information is listed in the output?</li>
+</ul>
+<p>You can! The modules are processed in the order they're stored in Shortcuts so you can rearrange them there. If you don't want to do that then (after you're activated your modules) you can run SJ-Preferences and select "<strong>Reorder Current Modules</strong>". You can then see a list of the modules and can move them around with cutting and pasting. Please make sure you don't change the names of any modules or add any spaces. Each one should be on a new line.</p>
+<ul>
+<li>I spent ages entering information and the output module crashed - do I have to do it all again?</li>
+</ul>
+<p>If the data modules ran without crashing then they will have been autosaved. You can retrieve the autosave data by running "SJ-Preferences" and selecting "retrieve autosave" from the menu. You can then copy the markdown output from the data modules to the clipboard or save it somewhere using the share sheet.</p>
+<ul>
+<li>Where can I get more modules?</li>
+</ul>
+<p>You can request a module on the <a href="https://www.reddit.com/r/SnapshotJournal/">Snapshot Journal subreddit</a> or write one for your self using the provided <strong>templates</strong> (<em>coming soon</em>) and instructions - it's easy!</p>
+<ul>
+<li>Can you see my data?</li>
+</ul>
+<p>I'm not responsible for any of your data and you use these shortcuts at your own risk. That being said, none of these modules use external APIs except for "Location" which queries an API to find an appropriate title emoji for the country you're in. Like any shortcut made by a stranger on the internet, I advise you to have a look to see what it's doing before running it. The <strong>SJ_Preferences</strong> shortcut creates a JSON file in your iCloud&gt;Shortcuts folder to store settings &amp; any temporary photo attachments. I don't have access to anything (nor would I want to!)</p>
+<ul>
+<li>Is the data I'm exporting secure?</li>
+</ul>
+<p>It depends where you're exporting it to. If, for example you export it to Bear, they sync using iCloud and your data stays on Apple's servers. If you export it to Dropbox or Day One, they have proprietary syncing software which sends your data to their servers. It's up to you who you feel happy to send what data to and when.</p>
+<ul>
+<li>There are so many shortcuts in my app now...</li>
+</ul>
+<p>I know, it's by design and it's what makes this a flexible system instead of one massive shortcut. I wish we had folders - hopefully in the next version of Shortcuts!</p>
+<ul>
+<li>Can I change the name of these Shortcuts?</li>
+</ul>
+<p>You can change anything after <strong>SJ-OM-</strong> or <strong>SJ-DM-</strong>. You can't change the name of <strong>Snapshot Journal</strong> or <strong>SJ-Preferences</strong> I'm afraid. However, you <em>can</em> change the colour or glyph to anything you like!</p>
+<ul>
+<li>Can I turn off notifications?</li>
+</ul>
+<p>There's no option to do this (maybe in a future version) in Snapshot Journal but you can scroll through and delete any "Show Notification" actions.</p>
+<ul>
+<li>I've got a bug/it's not working/I have a suggestion</li>
+</ul>
+<p>Let me know on the <a href="https://www.reddit.com/r/SnapshotJournal/">subreddit</a></p>
+<ul>
+<li>Can I buy you a beer?</li>
+</ul>
+<p><em>Of course</em>, thank you! A lot of work went into building Snapshot Journal and it was built entirely on a phone! I really hope you enjoy it. If it’s something you find useful and want to buy me a drink to say thanks, then you can using one of these links:
+<em> <a href="https://monzo.me/alexanderjackhay/1.00?d=Thanks%20for%20the%20%F0%9F%8D%BA!%20Hope%20you%20enjoy%20using%20Snapshot%20Journal%20%F0%9F%8E%89">£1.00</a>
+</em> <a href="https://monzo.me/alexanderjackhay/2.50?d=Thanks%20for%20the%20%F0%9F%8D%BA!%20Hope%20you%20enjoy%20using%20Snapshot%20Journal%20%F0%9F%8E%89">£2.50</a>
+<em> <a href="https://monzo.me/alexanderjackhay/5.00?d=Thanks%20for%20the%20%F0%9F%8D%BA!%20Hope%20you%20enjoy%20using%20Snapshot%20Journal%20%F0%9F%8E%89">£5.00</a>
+</em> <a href="https://monzo.me/alexanderjackhay/10.00?d=Thanks%20for%20the%20%F0%9F%8D%BA!%20Hope%20you%20enjoy%20using%20Snapshot%20Journal%20%F0%9F%8E%89">£10.00</a></p>
+</div>
+</div>
+<hr>
+<div class="latest-release">
+<h4 class="title is-4">Latest Release Notes</h4>
+<p><strong>1.03 - Jan. 27, 2019, 7:37 p.m.</strong></p>
+<p>Added updating framework for release in future version</p>
+<br>
+<a href="1741/changelog.html" class="button is-dark">Past versions</a>
+</div>
+<hr>
+<div class="feedback">
+<h4 class="title is-4">Feedback</h4>
+<p><a href="../login/index.html" style="text-decoration: underline;">Log in</a> or <a href="../register/index.html" style="text-decoration: underline;">sign up</a> to leave feedback.</p>
+<br>
+<p>No feedback yet</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="advertisement" class="navbar is-fixed-bottom has-background-light" style="height: 80px;">
+<div class="container">
+<div class="rh-ad-container">
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="0214bb0869fc0e5a861c1148-|49"></script><iframe src="https://viewm.moonicorn.network/#%7B%22options%22%3A%7B%22publisherAddr%22%3A%220xD0ca406a411FAA6F00F75a16617af27CbE778343%22%2C%22whitelistedTokens%22%3A%5B%220x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359%22%2C%220x6B175474E89094C44Da98b954EedeAC495271d0F%22%5D%2C%22whitelistedType%22%3A%22legacy_468x60%22%2C%22randomize%22%3Atrue%2C%22targeting%22%3A%5B%7B%22tag%22%3A%22computers%20%26%20electronics%22%2C%22score%22%3A75%7D%2C%7B%22tag%22%3A%22programming%22%2C%22score%22%3A75%7D%2C%7B%22tag%22%3A%22software%22%2C%22score%22%3A25%7D%2C%7B%22tag%22%3A%22web%20apps%20%26%20online%20tools%22%2C%22score%22%3A65%7D%2C%7B%22tag%22%3A%22ios%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22apple%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22mobile%20devices%22%2C%22score%22%3A100%7D%2C%7B%22tag%22%3A%22online%20learning%22%2C%22score%22%3A75%7D%5D%2C%22width%22%3A%22468%22%2C%22height%22%3A%2260%22%2C%22minPerImpression%22%3A%220%22%2C%22minTargetingScore%22%3A%220%22%2C%22fallbackUnit%22%3Anull%2C%22marketSlot%22%3A%22QmceseR8Q1RrSGMjJw8SHZHoxXy5RnYnARKE5mzVixQBmx%22%7D%7D" width="468" height="60" scrolling="no" frameborder="0" style="border: 0;" onload="window.addEventListener('message', function(ev) { 
+		if (ev.data.hasOwnProperty('adexHeight') && ('https://viewm.moonicorn.network' === ev.origin)) {
+			for (let f of document.getElementsByTagName('iframe')) {	
+				if (f.contentWindow === ev.source) {
+					f.height = ev.data.adexHeight;
+				}
+			}	
+		}
+	}, false)"></iframe>
+</div>
+</div>
+</section>
+<footer class="footer">
+<div class="container">
+<div class="footer-links">
+<div class="columns has-text-right-desktop has-text-left-touch">
+<div class="column is-6 is-hidden-mobile">
+<div class="content has-text-white-ter has-text-left is-size-7">
+<p>Copyright © 2020 Hardly Software LLC. All rights reserved.</p>
+<p>We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Apple Inc., or any of its subsidiaries or its affiliates. The official Apple website can be found at <a href="https://www.apple.com/" class="has-text-white-ter">https://www.apple.com/</a>. The name “Apple” as well as related names, marks, emblems and images are registered trademarks of Apple Inc.</p>
+<p>The use in this website and/or in related promotional print or video material of trademarked names and images is strictly for editorial and descriptive purposes, and no commercial claim to their use, or suggestion of sponsorship or endorsement, is made by Hardly Software LLC. Those words or terms that the authors and publisher have reason to believe are trademarks are designated as such by the use of initial capitalization, where appropriate. However no attempt has been made to identify or designate all words or terms to which trademark or other proprietary rights may exist. Nothing contained herein is intended to express a judgment on, or affect the validity of legal status of, any word or term as a trademark, service mark, or other proprietary mark.</p>
+</div>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a href="../index.html">Home</a>
+</p>
+<p class="footer-link">
+<a href="../register/index.html">Sign up</a>
+</p>
+<p class="footer-link">
+<a href="../login/index.html">Log in</a>
+</p>
+<p class="footer-link">
+<a href="../blog/index.html">Blog</a>
+</p>
+<p class="footer-link">
+<a href="../changelog.html">Changelog</a>
+</p>
+<p class="footer-link">
+<a href="https://app.usefathom.com/share/pisdlnji/routinehub">Analytics</a>
+</p>
+<p class="footer-link">
+<a href="https://stats.uptimerobot.com/5QODDT518" target="_blank">Status page</a>
+</p>
+<p class="footer-link">
+<a href="../shortcuts/latest/feed/index.html">RSS Feed</a>
+</p>
+<p class="footer-link">
+<a href="../faq/index.html">FAQ</a>
+</p>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a>Links</a>
+</p>
+<p class="footer-link">
+<a href="https://feedback.routinehub.co/" target="_blank">User Feedback</a>
+</p>
+<p class="footer-link">
+<a href="../ads/index.html">Advertising</a>
+</p>
+<p class="footer-link">
+<a href="../membership.html">Membership</a>
+</p>
+<p class="footer-link">
+<a href="https://routinehub.storenvy.com/" target="_blank">Shop</a>
+</p>
+<p class="footer-link">
+<a href="https://twitter.com/routinehub" target="_blank">Twitter</a>
+</p>
+<p class="footer-link">
+<a href="https://discord.gg/2xdeZxY" target="_blank">Discord (Chat)</a>
+</p>
+</div>
+<div class="column is-2">
+<p class="footer-link title is-size-5">
+<a href="../terms/index.html">Legal</a>
+</p>
+<p class="footer-link">
+<a href="../terms/index.html">Terms of Service</a>
+</p>
+<p class="footer-link">
+<a href="../privacy/index.html">Privacy Policy</a>
+</p>
+<p class="footer-link">
+<a href="../cookies/index.html">Cookie Policy</a>
+</p>
+</div>
+<div class="column is-8 is-hidden-tablet">
+<div class="content has-text-white-ter has-text-left is-size-7">
+<p>Copyright © 2019 Hardly Software LLC. All rights reserved.</p>
+<p>We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Apple Inc., or any of its subsidiaries or its affiliates. The official Apple website can be found at <a href="https://www.apple.com/" class="has-text-white-ter">https://www.apple.com/</a>. The name “Apple” as well as related names, marks, emblems and images are registered trademarks of Apple Inc.</p>
+<p>The use in this website and/or in related promotional print or video material of trademarked names and images is strictly for editorial and descriptive purposes, and no commercial claim to their use, or suggestion of sponsorship or endorsement, is made by Hardly Software LLC. Those words or terms that the authors and publisher have reason to believe are trademarks are designated as such by the use of initial capitalization, where appropriate. However no attempt has been made to identify or designate all words or terms to which trademark or other proprietary rights may exist. Nothing contained herein is intended to express a judgment on, or affect the validity of legal status of, any word or term as a trademark, service mark, or other proprietary mark.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous" type="0214bb0869fc0e5a861c1148-text/javascript"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" type="0214bb0869fc0e5a861c1148-text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js" type="0214bb0869fc0e5a861c1148-text/javascript"></script>
+<script src="https://routinehub-assets.s3.amazonaws.com/static/main/script.21.js" type="0214bb0869fc0e5a861c1148-text/javascript"></script>
+<script src="https://routinehub-assets.s3.amazonaws.com/static/main/vendors/fancybox/jquery.fancybox.min.js" type="0214bb0869fc0e5a861c1148-text/javascript"></script>
+<script type="0214bb0869fc0e5a861c1148-text/javascript">
+		$('[data-fancybox="gallery"]').fancybox({
+			buttons: [
+			    "zoom",
+			    "fullScreen",
+			    "close"
+			],
+			protect: true,
+		});
+	</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="0214bb0869fc0e5a861c1148-|49" defer=""></script></body>
+</html>
