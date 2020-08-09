@@ -417,6 +417,204 @@ QuickUpdate: by @zachary7829
 <h4 class="title is-4">Feedback</h4>
 <p><a href="../login/index.html" style="text-decoration: underline;">Log in</a> or <a href="../register/index.html" style="text-decoration: underline;">sign up</a> to leave feedback.</p>
 <br>
+<article class="media" data-feedback-id="2970">
+<div class="media-content">
+<a href="../user/TonyDudley.html"><strong>@TonyDudley</strong></a>
+<div class="content">
+<span class="body">Demon Update does this in 0.03 seconds with just 21 actions in iOS 12 and 23 in iOS 13 so this is not the fastest.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 1 month ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="GyF6gn1XISoxOQPPLmAjhN6O284fDpM5KfszoLl8mfODyhcgpXdJk737UoClh3jJ">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="2647">
+<input type="hidden" id="parent_id" name="parent_id" value="2970">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="media" data-feedback-id="3009">
+<div class="media-content">
+<a href="../user/D3W10.html"><strong>@D3W10</strong></a>
+<div class="content">
+<span class="body">This shortcut isn’t multi decimal support... Even the version 1.4. (I’m not saying that Swing Updater is bette, but supports it.)</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 1 month ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="GyF6gn1XISoxOQPPLmAjhN6O284fDpM5KfszoLl8mfODyhcgpXdJk737UoClh3jJ">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="2647">
+<input type="hidden" id="parent_id" name="parent_id" value="3009">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="3013">
+<div class="media-content">
+<a href="../user/zachary7829.html"><strong>@zachary7829</strong></a>
+<a href="../membership.html">
+<span class="tag is-primary">Member</span>
+</a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">Sorry that you couldn’t get it to work with multi-decimal. Your issue may be that you are calling a shortcut a version that hasn’t came out yet. For example, giving a shortcut version 1.5.1, when the latest on RoutineHub is 1.5, it may falsely detect 1.5 as an update until 1.5.1 is published. It’s kind of an annoying bug with QuickUpdate’s current algorithm, hope to fix it soon.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 1 month ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="GyF6gn1XISoxOQPPLmAjhN6O284fDpM5KfszoLl8mfODyhcgpXdJk737UoClh3jJ">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="2647">
+<input type="hidden" id="parent_id" name="parent_id" value="3013">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+</div>
+</article>
+<article class="media" data-feedback-id="3010">
+<div class="media-content">
+<a href="../user/TonyDudley.html"><strong>@TonyDudley</strong></a>
+<div class="content">
+<span class="body">So which is quicker 0.109 or 0.03 ?</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 1 month ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="GyF6gn1XISoxOQPPLmAjhN6O284fDpM5KfszoLl8mfODyhcgpXdJk737UoClh3jJ">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="2647">
+<input type="hidden" id="parent_id" name="parent_id" value="3010">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="3011">
+<div class="media-content">
+<a href="../user/zachary7829.html"><strong>@zachary7829</strong></a>
+<a href="../membership.html">
+<span class="tag is-primary">Member</span>
+</a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">The Description has been updated to be more accurate</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 1 month ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="GyF6gn1XISoxOQPPLmAjhN6O284fDpM5KfszoLl8mfODyhcgpXdJk737UoClh3jJ">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="2647">
+<input type="hidden" id="parent_id" name="parent_id" value="3011">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+</div>
+</article>
+<article class="media" data-feedback-id="3020">
+<div class="media-content">
+<a href="../user/TonyDudley.html"><strong>@TonyDudley</strong></a>
+<div class="content">
+<span class="body">Ok I will ask again which is quicker 0.12 or 0.03 or 0.109 your description is still not accurate
+Demon Updater is 0.03
+Multi Decimal point only means you “Patch things up” so it’s irrelevant.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 1 year, 1 month ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="GyF6gn1XISoxOQPPLmAjhN6O284fDpM5KfszoLl8mfODyhcgpXdJk737UoClh3jJ">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="2647">
+<input type="hidden" id="parent_id" name="parent_id" value="3020">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="media" data-feedback-id="3684">
+<div class="media-content">
+<a href="../user/MikeBeas.html"><strong>@MikeBeas</strong></a>
+<div class="content">
+<span class="body">The UpdateKit time listed here is just blatantly false.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 10 months, 1 week ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="GyF6gn1XISoxOQPPLmAjhN6O284fDpM5KfszoLl8mfODyhcgpXdJk737UoClh3jJ">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="2647">
+<input type="hidden" id="parent_id" name="parent_id" value="3684">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+<article class="media" data-feedback-id="3686">
+<div class="media-content">
+<a href="../user/zachary7829.html"><strong>@zachary7829</strong></a>
+<a href="../membership.html">
+<span class="tag is-primary">Member</span>
+</a>
+<span class="tag is-success is-rounded">Author</span>
+<div class="content">
+<span class="body">Sorry, that was from an old version. Updated to match times of 5.0.1 - rest of the speeds should be updated soon too.</span>
+<br>
+<small><a class="reply-feedback">Reply</a> · 10 months, 1 week ago</small>
+<div class="reply-container">
+<form action="https://routinehub.co/feedback/create_update" method="post">
+<input type="hidden" name="csrfmiddlewaretoken" value="GyF6gn1XISoxOQPPLmAjhN6O284fDpM5KfszoLl8mfODyhcgpXdJk737UoClh3jJ">
+<input type="hidden" id="shortcut_id" name="shortcut_id" value="2647">
+<input type="hidden" id="parent_id" name="parent_id" value="3686">
+<div class="field">
+<div class="control">
+<textarea name="body" cols="40" rows="3" placeholder="Comment" maxlength="500" class="textarea" required id="id_body"></textarea>
+</div>
+</div>
+<button class="button is-dark" type="submit">Reply</button>
+</form>
+</div>
+</div>
+</div>
+</article>
+</div>
+</article>
 </div>
 </div>
 </div>
